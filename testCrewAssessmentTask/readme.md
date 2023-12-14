@@ -30,4 +30,4 @@ from pomDesignPatternTests
 ### Reports 
  reports are generated in multiple formats , detailed Allure Report , Extent Report 
 
-[Task Allure Report](./AllureReport_20231214103206.html)
+![image](https://github.com/zanoon2020/AssessmentTask/assets/65794900/4d1d5190-cfac-4354-b6c5-b78acc883ce5)
