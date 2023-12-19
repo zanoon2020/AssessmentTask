@@ -1,0 +1,22 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                Test Method: 'pomDesignPatternTests.Tests._05verifyRedeemingWithWrongVoucherCode'                                
+                                      Test Description: 'Negative Scnario : Entering Invalid Voucher Code '                                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/testData.json"". @20-12-2023 00:20:04.0275 AM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/testData.json"". @20-12-2023 00:20:04.0277 AM
+[ReportManager] Target URL: "https://subscribe.stctv.com/en/redeem" @20-12-2023 00:20:08.0146 AM
+[ReportManager] Initial URL: "about:blank" @20-12-2023 00:20:08.0255 AM
+[ReportManager] Navigate to url "https://subscribe.stctv.com/en/redeem". @20-12-2023 00:20:15.0265 AM
+[ReportManager] text cleared Using Native Clear @20-12-2023 00:20:16.0035 AM
+[ReportManager] Type "122023" into "Placeholder". @20-12-2023 00:20:16.0208 AM
+[ReportManager] Moved the mouse to the middle of the element. @20-12-2023 00:20:16.0599 AM
+[ReportManager] Click "Redeem". @20-12-2023 00:20:16.0738 AM
+[ReportManager] Get text "Invalid voucher or promo code" from "By.xpath: //div[@class='error-msg']". @20-12-2023 00:20:17.0152 AM
+[ReportManager] Expected "Invalid voucher or promo code", and actual "Invalid voucher or promo code" @20-12-2023 00:20:17.0154 AM
+[ReportManager] Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'Invalid voucher or promo code' for the 'text' attribute, element locator 'By.xpath: //div[@class='error-msg']'" and Actual "Invalid voucher or promo code". Comparison Type "CONTAINS". Validation Type "POSITIVE". @20-12-2023 00:20:23.0538 AM
+[ReportManager] Assertion Passed: The Element located by "By.xpath: //div[@class='error-msg']" text contains "Invalid voucher or promo code". @20-12-2023 00:20:23.0540 AM
+[ReportManager] Successfully created attachment 'Screenshot - 1703024419860__05verifyRedeemingWithWrongVoucherCode_ValidateElementAttribute_passed' @20-12-2023 00:20:23.0690 AM
+[ReportManager] Successfully created attachment 'SHAFT Engine Logs - Current Method log: BeforeMethod' @20-12-2023 00:20:23.0728 AM

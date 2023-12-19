@@ -1,0 +1,84 @@
+[INFO ] 2023-12-19 22:39:39.084 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    Powered by [1mSHAFT v.7.4.20231211[22m                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-19 22:39:39.136 [main] ReportManager - Checking for engine updates...
+[INFO ] 2023-12-19 22:39:39.186 [main] ReportManager - Engine Update check done for the day. 👍
+[INFO ] 2023-12-19 22:39:42.560 [main] ReportManager - Loaded OpenCV "opencv_java481".
+[INFO ] 2023-12-19 22:39:42.561 [main] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2023-12-19 22:39:42.916 [main] ReportManager - Initializing Extent Reporting Environment...
+[INFO ] 2023-12-19 22:39:45.982 [main] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2023-12-19 22:39:46.036 [main] ReportManager - TestNG run detected...
+[INFO ] 2023-12-19 22:39:46.991 [main] Utils - [TestNG] Running:
+  C:\Users\Ahmed Zanoon\AppData\Local\JetBrains\IdeaIC2023.2\temp-testng-customsuite.xml
+
+[INFO ] 2023-12-19 22:39:47.130 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-19 22:39:47.627 [main] ReportManager - Initializing Important Links...
+[INFO ] 2023-12-19 22:39:47.647 [main] ReportManager - Initializing Properties...
+[INFO ] 2023-12-19 22:39:48.146 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of before class configuration method                                             
+                                                    'pomDesignPatternTests.Tests.BeforeClass'                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-19 22:39:48.223 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2023-12-19 22:39:48.387 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {log: {level: warn}, profile: UEsDBBQACAgIAPi0k1cAAAAAAAA...}, pageLoadStrategy: normal, timeouts: {pageLoad: 60000, script: 60000}, webSocketUrl: true}
+[INFO ] 2023-12-19 22:39:48.391 [main] ReportManager - Attempting to run locally on: "windows | Firefox".
+[INFO ] 2023-12-19 22:39:48.394 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[INFO ] 2023-12-19 22:40:03.820 [main] ReportManager - Successfully Opened: "windows | Firefox".
+[INFO ] 2023-12-19 22:40:04.144 [main] ReportManager - Initial window size: (1291, 747)
+[INFO ] 2023-12-19 22:40:04.501 [main] ReportManager - Window size after SWD Maximize: (1550, 838)
+[INFO ] 2023-12-19 22:40:04.556 [main] ReportManager - Maximize window "New screen size is now: (1550, 838)".
+[INFO ] 2023-12-19 22:40:04.601 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "testData.json"".
+[INFO ] 2023-12-19 22:40:04.616 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/testData.json"".
+[INFO ] 2023-12-19 22:40:04.619 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/testData.json"".
+[INFO ] 2023-12-19 22:40:04.636 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2023-12-19 22:40:04.746 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                            Starting execution of before method configuration method                                            
+                                                   'pomDesignPatternTests.Tests.BeforeMethod'                                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-19 22:40:05.622 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                 Test Method: 'pomDesignPatternTests.Tests.verifyInvalidWrongEmailErrorMessage'                                 
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-19 22:40:05.693 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/testData.json"".
+[INFO ] 2023-12-19 22:40:05.699 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/testData.json"".
+[INFO ] 2023-12-19 22:40:13.416 [main] ReportManager - Target URL: "https://subscribe.stctv.com/en/user-status/"
+[INFO ] 2023-12-19 22:40:13.571 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2023-12-19 22:41:59.145 [main] ReportManager - Successfully created attachment 'Browser Action Exception - Navigate to url - Stacktrace'
+[INFO ] 2023-12-19 22:41:59.237 [main] ReportManager - Successfully created attachment 'Screenshot - 1703018513540_verifyInvalidWrongEmailErrorMessage_Navigate to url_failed'
+[INFO ] 2023-12-19 22:41:59.418 [main] ReportManager - Successfully created attachment 'Database actions - Get  stack  trace - Exception Stacktrace'
+[INFO ] 2023-12-19 22:41:59.533 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: verifyInvalidWrongEmailErrorMessage'
+[INFO ] 2023-12-19 22:41:59.540 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                      Finished Execution of Test Method: 'pomDesignPatternTests.Tests.verifyInvalidWrongEmailErrorMessage'                      
+                                                              Test Status: 'Failed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-19 22:41:59.899 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of after method configuration method                                             
+                                                    'pomDesignPatternTests.Tests.afterMethod'                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-19 22:42:11.851 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2023-12-19 22:42:11.864 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: afterMethod'
+[INFO ] 2023-12-19 22:42:11.879 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine teardown configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTeardown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-19 22:42:11.901 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'
+[INFO ] 2023-12-19 22:42:11.903 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/logs/log4j.log"".
+[INFO ] 2023-12-19 22:42:11.906 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "target/logs/log4j.log"".

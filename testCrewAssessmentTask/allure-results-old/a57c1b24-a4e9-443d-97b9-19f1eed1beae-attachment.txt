@@ -1,0 +1,15 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                 Test Method: 'pomDesignPatternTests.Tests.verifyInvalidWrongEmailErrorMessage'                                 
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/testData.json"". @19-12-2023 22:36:35.0538 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/testData.json"". @19-12-2023 22:36:35.0542 PM
+[ReportManager] Target URL: "https://subscribe.stctv.com/en/user-status/" @19-12-2023 22:36:44.0158 PM
+[ReportManager] Initial URL: "about:blank" @19-12-2023 22:36:44.0313 PM
+[ReportManager] Navigate to url failed "https://subscribe.stctv.com/en/user-status/". @19-12-2023 22:38:17.0764 PM
+[ReportManager] Successfully created attachment 'Browser Action Exception - Navigate to url - Stacktrace' @19-12-2023 22:38:17.0786 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1703018295060_verifyInvalidWrongEmailErrorMessage_Navigate to url_failed' @19-12-2023 22:38:17.0839 PM
+[ReportManager] Navigate to url failed "https://subscribe.stctv.com/en/user-status/". Root cause: "org.openqa.selenium.TimeoutException: Navigation timed out after 60000 ms" @19-12-2023 22:38:18.0264 PM
+[ReportManager] Successfully created attachment 'Database actions - Get  stack  trace - Exception Stacktrace' @19-12-2023 22:38:18.0268 PM

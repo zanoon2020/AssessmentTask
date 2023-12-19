@@ -1,0 +1,340 @@
+[INFO ] 2023-12-19 22:32:39.893 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    Powered by [1mSHAFT v.7.4.20231211[22m                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-19 22:32:39.940 [main] ReportManager - Checking for engine updates...
+[INFO ] 2023-12-19 22:32:39.992 [main] ReportManager - Engine Update check done for the day. 👍
+[INFO ] 2023-12-19 22:32:43.572 [main] ReportManager - Loaded OpenCV "opencv_java481".
+[INFO ] 2023-12-19 22:32:43.574 [main] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2023-12-19 22:32:43.959 [main] ReportManager - Initializing Extent Reporting Environment...
+[INFO ] 2023-12-19 22:32:45.802 [main] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2023-12-19 22:32:45.878 [main] ReportManager - TestNG run detected...
+[INFO ] 2023-12-19 22:32:46.707 [main] Utils - [TestNG] Running:
+  C:\Users\Ahmed Zanoon\AppData\Local\JetBrains\IdeaIC2023.2\temp-testng-customsuite.xml
+
+[INFO ] 2023-12-19 22:32:46.882 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-19 22:32:47.721 [main] ReportManager - Initializing Important Links...
+[INFO ] 2023-12-19 22:32:47.761 [main] ReportManager - Initializing Properties...
+[INFO ] 2023-12-19 22:32:53.988 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "/D:/ShaftHQ/AssessmentTask/testCrewAssessmentTask/src/test/resources/ValidateSubscriptionPackages.feature"".
+[INFO ] 2023-12-19 22:32:53.991 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "/D:/ShaftHQ/AssessmentTask/testCrewAssessmentTask/src/test/resources/ValidateSubscriptionPackages.feature"".
+[INFO ] 2023-12-19 22:32:53.994 [main] ReportManager - File Action "ReadFile" successfully performed. With the following test data "File Path: "D:\ShaftHQ\AssessmentTask\testCrewAssessmentTask\src\test\resources\ValidateSubscriptionPackages.feature"".
+[INFO ] 2023-12-19 22:32:55.367 [main] ReportManager - Scenario: Navigate To Subscription Page                        [90m# src/test/resources/ValidateSubscriptionPackages.feature:3[0m
+[INFO ] 2023-12-19 22:32:55.373 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "/D:/ShaftHQ/AssessmentTask/testCrewAssessmentTask/src/test/resources/ValidateSubscriptionPackages.feature"".
+[INFO ] 2023-12-19 22:32:55.377 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "/D:/ShaftHQ/AssessmentTask/testCrewAssessmentTask/src/test/resources/ValidateSubscriptionPackages.feature"".
+[INFO ] 2023-12-19 22:32:55.380 [main] ReportManager - File Action "ReadFile" successfully performed. With the following test data "File Path: "D:\ShaftHQ\AssessmentTask\testCrewAssessmentTask\src\test\resources\ValidateSubscriptionPackages.feature"".
+[ERROR] 2023-12-19 22:32:55.386 [main] AllureLifecycle - Could not update test case: no test case running
+[ERROR] 2023-12-19 22:32:55.388 [main] AllureLifecycle - Could not update test case: no test case running
+[ERROR] 2023-12-19 22:32:55.390 [main] AllureLifecycle - Could not update test case: no test case running
+[INFO ] 2023-12-19 22:32:55.525 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+Starting Execution: "1 out of 1" scenarios in the "Validate Subscription Package Type , Price , Currency For Each Available Country on Subscriptions Page" feature
+                                                 Scenario Name: "Navigate To Subscription Page"                                                 
+                                                                 Scenario Steps:                                                                 
+                                                            Given I Open The Browser                                                            
+                                             When I Navigate To "https://subscribe.stctv.com/sa-en"                                             
+                                                     And I assert That Chosen Country Is KSA                                                     
+                                            Then I assert That Package "LITE" Price Equals "15" "SAR"                                            
+                                           And I assert That Package "CLASSIC" Price Equals "25" "SAR"                                           
+                                           And I assert That Package "PREMIUM" Price Equals "60" "SAR"                                           
+                                                      When I Change The Country To Bahrain                                                      
+                                            Then I assert That Package "LITE" Price Equals "2" "BHD"                                            
+                                           And I assert That Package "CLASSIC" Price Equals "3" "BHD"                                           
+                                           And I assert That Package "PREMIUM" Price Equals "6" "BHD"                                           
+                                                       When I Change The Country To Kuwait                                                       
+                                           Then I assert That Package "LITE" Price Equals "1.2" "KWD"                                           
+                                          And I assert That Package "CLASSIC" Price Equals "2.5" "KWD"                                          
+                                          And I assert That Package "PREMIUM" Price Equals "4.8" "KWD"                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-19 22:32:55.563 [main] ReportManager - Scenario Step: Given I Open The Browser
+[INFO ] 2023-12-19 22:32:55.589 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2023-12-19 22:32:55.829 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {log: {level: warn}, profile: UEsDBBQACAgIABu0k1cAAAAAAAA...}, pageLoadStrategy: normal, timeouts: {pageLoad: 60000, script: 60000}, webSocketUrl: true}
+[INFO ] 2023-12-19 22:32:55.834 [main] ReportManager - Attempting to run locally on: "windows | Firefox".
+[INFO ] 2023-12-19 22:32:55.835 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[INFO ] 2023-12-19 22:33:10.494 [main] ReportManager - Successfully Opened: "windows | Firefox".
+[INFO ] 2023-12-19 22:33:10.660 [main] ReportManager - Initial window size: (1291, 747)
+[INFO ] 2023-12-19 22:33:11.050 [main] ReportManager - Window size after SWD Maximize: (1550, 838)
+[INFO ] 2023-12-19 22:33:11.090 [main] ReportManager - Maximize window "New screen size is now: (1550, 838)".
+[INFO ] 2023-12-19 22:33:11.120 [main] ReportManager -   [32mGiven [0m[32mI Open The Browser[0m                                     [90m# cucumberSteps.Steps.i_open_the_browser()[0m
+[INFO ] 2023-12-19 22:33:11.139 [main] ReportManager - Scenario Step: When I Navigate To "https://subscribe.stctv.com/sa-en"
+[INFO ] 2023-12-19 22:33:11.156 [main] ReportManager - Target URL: "https://subscribe.stctv.com/sa-en"
+[INFO ] 2023-12-19 22:33:11.249 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2023-12-19 22:34:33.788 [main] ReportManager - Navigate to url "https://subscribe.stctv.com/sa-en".
+[INFO ] 2023-12-19 22:34:33.790 [main] ReportManager -   [32mWhen [0m[32mI Navigate To [0m[32m[1m"https://subscribe.stctv.com/sa-en"[0m       [90m# cucumberSteps.Steps.I_Navigate_To(java.lang.String)[0m
+[INFO ] 2023-12-19 22:34:33.797 [main] ReportManager - Scenario Step: And I assert That Chosen Country Is KSA
+[INFO ] 2023-12-19 22:35:33.975 [main] ReportManager - Expected condition failed: waiting for com.shaft.gui.element.internal.ElementActionsHelper$$Lambda/0x0000028681663428@5a880dbe (tried for 60 second(s) with 100 milliseconds interval) || Unable to locate element: //div[@id='country']//img[@alt='sa']
+[INFO ] 2023-12-19 22:35:38.448 [main] ReportManager - Assertion "ValidateElementExists" FAILED. Expected "Element Should Exist, locator 'By.xpath: //div[@id='country']//img[@alt='sa']'" and Actual "Element Doesn't Exists". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-12-19 22:35:38.571 [main] ReportManager - Successfully created attachment 'Screenshot - 1703018134340_runScenario_ValidateElementExists_failed'
+[INFO ] 2023-12-19 22:35:38.604 [main] ReportManager - Successfully created attachment 'Validation Test Data - Failure Reason'
+[INFO ] 2023-12-19 22:35:38.618 [main] ReportManager - Assertion "ValidateElementExists" FAILED. Expected "Element Should Exist, locator 'By.xpath: //div[@id='country']//img[@alt='sa']'" and Actual "Element Doesn't Exists". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-12-19 22:35:38.682 [main] ReportManager -   [31mAnd [0m[31mI assert That Chosen Country Is KSA[0m                      [90m# cucumberSteps.Steps.I_Assert_That_ChosenCountry_Is_KSA()[0m
+[INFO ] 2023-12-19 22:35:38.683 [main] ReportManager -       [31mjava.lang.AssertionError: Assertion "ValidateElementExists" FAILED. Expected "Element Should Exist, locator 'By.xpath: //div[@id='country']//img[@alt='sa']'" and Actual "Element Doesn't Exists". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-12-19 22:35:38.684 [main] ReportManager - 	at org.testng.Assert.fail(Assert.java:111)
+[INFO ] 2023-12-19 22:35:38.684 [main] ReportManager - 	at com.shaft.tools.io.internal.FailureReporter.fail(FailureReporter.java:43)
+[INFO ] 2023-12-19 22:35:38.685 [main] ReportManager - 	at com.shaft.validation.internal.ValidationsHelper.reportValidationState(ValidationsHelper.java:650)
+[INFO ] 2023-12-19 22:35:38.685 [main] ReportManager - 	at com.shaft.validation.internal.ValidationsHelper.fail(ValidationsHelper.java:395)
+[INFO ] 2023-12-19 22:35:38.685 [main] ReportManager - 	at com.shaft.validation.internal.ValidationsHelper.validateElementExists(ValidationsHelper.java:114)
+[INFO ] 2023-12-19 22:35:38.686 [main] ReportManager - 	at com.shaft.validation.internal.ValidationsExecutor.performValidation(ValidationsExecutor.java:163)
+[INFO ] 2023-12-19 22:35:38.688 [main] ReportManager - 	at com.shaft.validation.internal.ValidationsExecutor.perform(ValidationsExecutor.java:149)
+[INFO ] 2023-12-19 22:35:38.689 [main] ReportManager - 	at cucumberSteps.Steps.I_Assert_That_ChosenCountry_Is_KSA(Steps.java:26)
+[INFO ] 2023-12-19 22:35:38.690 [main] ReportManager - 	at ￢ﾜﾽ.I assert That Chosen Country Is KSA(file:///D:/ShaftHQ/AssessmentTask/testCrewAssessmentTask/src/test/resources/ValidateSubscriptionPackages.feature:8)
+[INFO ] 2023-12-19 22:35:38.690 [main] ReportManager - [0m
+[INFO ] 2023-12-19 22:35:38.705 [main] ReportManager - Scenario Step: Then I assert That Package "LITE" Price Equals "15" "SAR"
+[INFO ] 2023-12-19 22:35:38.715 [main] ReportManager -   [36mThen [0m[36mI assert That Package [0m[36m[1m"LITE"[0m[36m Price Equals [0m[36m[1m"15"[0m[36m [0m[36m[1m"SAR"[0m    [90m# cucumberSteps.Steps.I_Assert_Package_Price(java.lang.String,java.lang.String,java.lang.String)[0m
+[INFO ] 2023-12-19 22:35:38.728 [main] ReportManager - Scenario Step: And I assert That Package "CLASSIC" Price Equals "25" "SAR"
+[INFO ] 2023-12-19 22:35:38.731 [main] ReportManager -   [36mAnd [0m[36mI assert That Package [0m[36m[1m"CLASSIC"[0m[36m Price Equals [0m[36m[1m"25"[0m[36m [0m[36m[1m"SAR"[0m  [90m# cucumberSteps.Steps.I_Assert_Package_Price(java.lang.String,java.lang.String,java.lang.String)[0m
+[INFO ] 2023-12-19 22:35:38.740 [main] ReportManager - Scenario Step: And I assert That Package "PREMIUM" Price Equals "60" "SAR"
+[INFO ] 2023-12-19 22:35:38.743 [main] ReportManager -   [36mAnd [0m[36mI assert That Package [0m[36m[1m"PREMIUM"[0m[36m Price Equals [0m[36m[1m"60"[0m[36m [0m[36m[1m"SAR"[0m  [90m# cucumberSteps.Steps.I_Assert_Package_Price(java.lang.String,java.lang.String,java.lang.String)[0m
+[INFO ] 2023-12-19 22:35:38.746 [main] ReportManager - Scenario Step: When I Change The Country To Bahrain
+[INFO ] 2023-12-19 22:35:38.748 [main] ReportManager -   [36mWhen [0m[36mI Change The Country To Bahrain[0m                         [90m# cucumberSteps.Steps.I_Change_The_Country_To_Bahrain()[0m
+[INFO ] 2023-12-19 22:35:38.755 [main] ReportManager - Scenario Step: Then I assert That Package "LITE" Price Equals "2" "BHD"
+[INFO ] 2023-12-19 22:35:38.761 [main] ReportManager -   [36mThen [0m[36mI assert That Package [0m[36m[1m"LITE"[0m[36m Price Equals [0m[36m[1m"2"[0m[36m [0m[36m[1m"BHD"[0m     [90m# cucumberSteps.Steps.I_Assert_Package_Price(java.lang.String,java.lang.String,java.lang.String)[0m
+[INFO ] 2023-12-19 22:35:38.766 [main] ReportManager - Scenario Step: And I assert That Package "CLASSIC" Price Equals "3" "BHD"
+[INFO ] 2023-12-19 22:35:38.770 [main] ReportManager -   [36mAnd [0m[36mI assert That Package [0m[36m[1m"CLASSIC"[0m[36m Price Equals [0m[36m[1m"3"[0m[36m [0m[36m[1m"BHD"[0m   [90m# cucumberSteps.Steps.I_Assert_Package_Price(java.lang.String,java.lang.String,java.lang.String)[0m
+[INFO ] 2023-12-19 22:35:38.774 [main] ReportManager - Scenario Step: And I assert That Package "PREMIUM" Price Equals "6" "BHD"
+[INFO ] 2023-12-19 22:35:38.777 [main] ReportManager -   [36mAnd [0m[36mI assert That Package [0m[36m[1m"PREMIUM"[0m[36m Price Equals [0m[36m[1m"6"[0m[36m [0m[36m[1m"BHD"[0m   [90m# cucumberSteps.Steps.I_Assert_Package_Price(java.lang.String,java.lang.String,java.lang.String)[0m
+[INFO ] 2023-12-19 22:35:38.784 [main] ReportManager - Scenario Step: When I Change The Country To Kuwait
+[INFO ] 2023-12-19 22:35:38.790 [main] ReportManager -   [36mWhen [0m[36mI Change The Country To Kuwait[0m                          [90m# cucumberSteps.Steps.I_Change_The_Country_To_kuwait()[0m
+[INFO ] 2023-12-19 22:35:38.800 [main] ReportManager - Scenario Step: Then I assert That Package "LITE" Price Equals "1.2" "KWD"
+[INFO ] 2023-12-19 22:35:38.806 [main] ReportManager -   [36mThen [0m[36mI assert That Package [0m[36m[1m"LITE"[0m[36m Price Equals [0m[36m[1m"1.2"[0m[36m [0m[36m[1m"KWD"[0m   [90m# cucumberSteps.Steps.I_Assert_Package_Price(java.lang.String,java.lang.String,java.lang.String)[0m
+[INFO ] 2023-12-19 22:35:38.811 [main] ReportManager - Scenario Step: And I assert That Package "CLASSIC" Price Equals "2.5" "KWD"
+[INFO ] 2023-12-19 22:35:38.814 [main] ReportManager -   [36mAnd [0m[36mI assert That Package [0m[36m[1m"CLASSIC"[0m[36m Price Equals [0m[36m[1m"2.5"[0m[36m [0m[36m[1m"KWD"[0m [90m# cucumberSteps.Steps.I_Assert_Package_Price(java.lang.String,java.lang.String,java.lang.String)[0m
+[INFO ] 2023-12-19 22:35:38.821 [main] ReportManager - Scenario Step: And I assert That Package "PREMIUM" Price Equals "4.8" "KWD"
+[INFO ] 2023-12-19 22:35:38.826 [main] ReportManager -   [36mAnd [0m[36mI assert That Package [0m[36m[1m"PREMIUM"[0m[36m Price Equals [0m[36m[1m"4.8"[0m[36m [0m[36m[1m"KWD"[0m [90m# cucumberSteps.Steps.I_Assert_Package_Price(java.lang.String,java.lang.String,java.lang.String)[0m
+[INFO ] 2023-12-19 22:35:39.829 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: runScenario'
+[INFO ] 2023-12-19 22:35:40.232 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine teardown configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTeardown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-19 22:35:40.239 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'
+[INFO ] 2023-12-19 22:35:40.244 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/logs/log4j.log"".
+[INFO ] 2023-12-19 22:35:40.246 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "target/logs/log4j.log"".
+[INFO ] 2023-12-19 22:35:40.260 [main] ReportManager - File Action "ReadFileAsByteArray" successfully performed. With the following test data "File Path: "D:\ShaftHQ\AssessmentTask\testCrewAssessmentTask\target\logs\log4j.log"".
+[INFO ] 2023-12-19 22:35:40.264 [main] ReportManager - File Action "DeleteFile" successfully performed. With the following test data "Target File Path: "target/logs/log4j.log", file was not deleted.".
+[INFO ] 2023-12-19 22:35:40.273 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log: 20231219-223540'
+[DEBUG] 2023-12-19 22:35:40.465 [main] cache - Couldn't find template in cache for "spark/spark.spa.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-12-19 22:35:40.473 [main] cache - TemplateLoader.findTemplateSource("spark/spark.spa_en_US.ftl"): Not found
+[DEBUG] 2023-12-19 22:35:40.487 [main] cache - TemplateLoader.findTemplateSource("spark/spark.spa_en.ftl"): Not found
+[DEBUG] 2023-12-19 22:35:40.490 [main] cache - TemplateLoader.findTemplateSource("spark/spark.spa.ftl"): Found
+[DEBUG] 2023-12-19 22:35:40.492 [main] cache - Loading template for "spark/spark.spa.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Ahmed%20Zanoon/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/spark/spark.spa.ftl"
+[DEBUG] 2023-12-19 22:35:41.221 [main] cache - Couldn't find template in cache for "commons/commons-variables.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-12-19 22:35:41.223 [main] cache - TemplateLoader.findTemplateSource("commons/commons-variables_en_US.ftl"): Not found
+[DEBUG] 2023-12-19 22:35:41.225 [main] cache - TemplateLoader.findTemplateSource("commons/commons-variables_en.ftl"): Not found
+[DEBUG] 2023-12-19 22:35:41.226 [main] cache - TemplateLoader.findTemplateSource("commons/commons-variables.ftl"): Found
+[DEBUG] 2023-12-19 22:35:41.227 [main] cache - Loading template for "commons/commons-variables.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Ahmed%20Zanoon/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/commons/commons-variables.ftl"
+[DEBUG] 2023-12-19 22:35:42.143 [main] cache - Couldn't find template in cache for "commons/commons-macros.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-12-19 22:35:42.145 [main] cache - TemplateLoader.findTemplateSource("commons/commons-macros_en_US.ftl"): Not found
+[DEBUG] 2023-12-19 22:35:42.146 [main] cache - TemplateLoader.findTemplateSource("commons/commons-macros_en.ftl"): Not found
+[DEBUG] 2023-12-19 22:35:42.156 [main] cache - TemplateLoader.findTemplateSource("commons/commons-macros.ftl"): Found
+[DEBUG] 2023-12-19 22:35:42.157 [main] cache - Loading template for "commons/commons-macros.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Ahmed%20Zanoon/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/commons/commons-macros.ftl"
+[DEBUG] 2023-12-19 22:35:42.205 [main] cache - Couldn't find template in cache for "spark/macros/attributes.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-12-19 22:35:42.207 [main] cache - TemplateLoader.findTemplateSource("spark/macros/attributes_en_US.ftl"): Not found
+[DEBUG] 2023-12-19 22:35:42.209 [main] cache - TemplateLoader.findTemplateSource("spark/macros/attributes_en.ftl"): Not found
+[DEBUG] 2023-12-19 22:35:42.210 [main] cache - TemplateLoader.findTemplateSource("spark/macros/attributes.ftl"): Found
+[DEBUG] 2023-12-19 22:35:42.210 [main] cache - Loading template for "spark/macros/attributes.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Ahmed%20Zanoon/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/spark/macros/attributes.ftl"
+[DEBUG] 2023-12-19 22:35:42.223 [main] cache - Couldn't find template in cache for "spark/macros/log.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-12-19 22:35:42.224 [main] cache - TemplateLoader.findTemplateSource("spark/macros/log_en_US.ftl"): Not found
+[DEBUG] 2023-12-19 22:35:42.226 [main] cache - TemplateLoader.findTemplateSource("spark/macros/log_en.ftl"): Not found
+[DEBUG] 2023-12-19 22:35:42.228 [main] cache - TemplateLoader.findTemplateSource("spark/macros/log.ftl"): Found
+[DEBUG] 2023-12-19 22:35:42.229 [main] cache - Loading template for "spark/macros/log.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Ahmed%20Zanoon/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/spark/macros/log.ftl"
+[DEBUG] 2023-12-19 22:35:42.242 [main] cache - Couldn't find template in cache for "spark/macros/recurse_nodes.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-12-19 22:35:42.244 [main] cache - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en_US.ftl"): Not found
+[DEBUG] 2023-12-19 22:35:42.247 [main] cache - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en.ftl"): Not found
+[DEBUG] 2023-12-19 22:35:42.248 [main] cache - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes.ftl"): Found
+[DEBUG] 2023-12-19 22:35:42.248 [main] cache - Loading template for "spark/macros/recurse_nodes.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Ahmed%20Zanoon/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/spark/macros/recurse_nodes.ftl"
+[DEBUG] 2023-12-19 22:35:42.262 [main] cache - "spark/macros/log.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+[DEBUG] 2023-12-19 22:35:42.263 [main] cache - Couldn't find template in cache for "spark/macros/attr-common.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-12-19 22:35:42.264 [main] cache - TemplateLoader.findTemplateSource("spark/macros/attr-common_en_US.ftl"): Not found
+[DEBUG] 2023-12-19 22:35:42.266 [main] cache - TemplateLoader.findTemplateSource("spark/macros/attr-common_en.ftl"): Not found
+[DEBUG] 2023-12-19 22:35:42.267 [main] cache - TemplateLoader.findTemplateSource("spark/macros/attr-common.ftl"): Found
+[DEBUG] 2023-12-19 22:35:42.267 [main] cache - Loading template for "spark/macros/attr-common.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Ahmed%20Zanoon/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/spark/macros/attr-common.ftl"
+[DEBUG] 2023-12-19 22:35:42.294 [main] cache - Couldn't find template in cache for "spark/partials/head.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-12-19 22:35:42.296 [main] cache - TemplateLoader.findTemplateSource("spark/partials/head_en_US.ftl"): Not found
+[DEBUG] 2023-12-19 22:35:42.297 [main] cache - TemplateLoader.findTemplateSource("spark/partials/head_en.ftl"): Not found
+[DEBUG] 2023-12-19 22:35:42.298 [main] cache - TemplateLoader.findTemplateSource("spark/partials/head.ftl"): Found
+[DEBUG] 2023-12-19 22:35:42.299 [main] cache - Loading template for "spark/partials/head.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Ahmed%20Zanoon/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/spark/partials/head.ftl"
+[DEBUG] 2023-12-19 22:35:42.323 [main] cache - Couldn't find template in cache for "commons/commons-inject-css.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-12-19 22:35:42.324 [main] cache - TemplateLoader.findTemplateSource("commons/commons-inject-css_en_US.ftl"): Not found
+[DEBUG] 2023-12-19 22:35:42.326 [main] cache - TemplateLoader.findTemplateSource("commons/commons-inject-css_en.ftl"): Not found
+[DEBUG] 2023-12-19 22:35:42.327 [main] cache - TemplateLoader.findTemplateSource("commons/commons-inject-css.ftl"): Found
+[DEBUG] 2023-12-19 22:35:42.327 [main] cache - Loading template for "commons/commons-inject-css.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Ahmed%20Zanoon/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/commons/commons-inject-css.ftl"
+[DEBUG] 2023-12-19 22:35:42.330 [main] cache - Couldn't find template in cache for "spark/partials/navbar.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-12-19 22:35:42.332 [main] cache - TemplateLoader.findTemplateSource("spark/partials/navbar_en_US.ftl"): Not found
+[DEBUG] 2023-12-19 22:35:42.333 [main] cache - TemplateLoader.findTemplateSource("spark/partials/navbar_en.ftl"): Not found
+[DEBUG] 2023-12-19 22:35:42.334 [main] cache - TemplateLoader.findTemplateSource("spark/partials/navbar.ftl"): Found
+[DEBUG] 2023-12-19 22:35:42.334 [main] cache - Loading template for "spark/partials/navbar.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Ahmed%20Zanoon/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/spark/partials/navbar.ftl"
+[DEBUG] 2023-12-19 22:35:42.367 [main] cache - Couldn't find template in cache for "spark/partials/sidenav.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-12-19 22:35:42.370 [main] cache - TemplateLoader.findTemplateSource("spark/partials/sidenav_en_US.ftl"): Not found
+[DEBUG] 2023-12-19 22:35:42.372 [main] cache - TemplateLoader.findTemplateSource("spark/partials/sidenav_en.ftl"): Not found
+[DEBUG] 2023-12-19 22:35:42.372 [main] cache - TemplateLoader.findTemplateSource("spark/partials/sidenav.ftl"): Found
+[DEBUG] 2023-12-19 22:35:42.373 [main] cache - Loading template for "spark/partials/sidenav.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Ahmed%20Zanoon/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/spark/partials/sidenav.ftl"
+[DEBUG] 2023-12-19 22:35:42.438 [main] cache - Couldn't find template in cache for "spark/partials/dashboard.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-12-19 22:35:42.439 [main] cache - TemplateLoader.findTemplateSource("spark/partials/dashboard_en_US.ftl"): Not found
+[DEBUG] 2023-12-19 22:35:42.441 [main] cache - TemplateLoader.findTemplateSource("spark/partials/dashboard_en.ftl"): Not found
+[DEBUG] 2023-12-19 22:35:42.442 [main] cache - TemplateLoader.findTemplateSource("spark/partials/dashboard.ftl"): Found
+[DEBUG] 2023-12-19 22:35:42.442 [main] cache - Loading template for "spark/partials/dashboard.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Ahmed%20Zanoon/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/spark/partials/dashboard.ftl"
+[DEBUG] 2023-12-19 22:35:42.771 [main] cache - Couldn't find template in cache for "spark/partials/test.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-12-19 22:35:42.774 [main] cache - TemplateLoader.findTemplateSource("spark/partials/test_en_US.ftl"): Not found
+[DEBUG] 2023-12-19 22:35:42.775 [main] cache - TemplateLoader.findTemplateSource("spark/partials/test_en.ftl"): Not found
+[DEBUG] 2023-12-19 22:35:42.776 [main] cache - TemplateLoader.findTemplateSource("spark/partials/test.ftl"): Found
+[DEBUG] 2023-12-19 22:35:42.776 [main] cache - Loading template for "spark/partials/test.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Ahmed%20Zanoon/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/spark/partials/test.ftl"
+[DEBUG] 2023-12-19 22:35:42.836 [main] cache - Couldn't find template in cache for "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-12-19 22:35:42.839 [main] cache - TemplateLoader.findTemplateSource("spark/partials/standard-content_en_US.ftl"): Not found
+[DEBUG] 2023-12-19 22:35:42.841 [main] cache - TemplateLoader.findTemplateSource("spark/partials/standard-content_en.ftl"): Not found
+[DEBUG] 2023-12-19 22:35:42.843 [main] cache - TemplateLoader.findTemplateSource("spark/partials/standard-content.ftl"): Found
+[DEBUG] 2023-12-19 22:35:42.843 [main] cache - Loading template for "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Ahmed%20Zanoon/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/spark/partials/standard-content.ftl"
+[DEBUG] 2023-12-19 22:35:42.900 [main] cache - Couldn't find template in cache for "spark/partials/exception.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-12-19 22:35:42.901 [main] cache - TemplateLoader.findTemplateSource("spark/partials/exception_en_US.ftl"): Not found
+[DEBUG] 2023-12-19 22:35:42.903 [main] cache - TemplateLoader.findTemplateSource("spark/partials/exception_en.ftl"): Not found
+[DEBUG] 2023-12-19 22:35:42.904 [main] cache - TemplateLoader.findTemplateSource("spark/partials/exception.ftl"): Found
+[DEBUG] 2023-12-19 22:35:42.905 [main] cache - Loading template for "spark/partials/exception.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Ahmed%20Zanoon/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/spark/partials/exception.ftl"
+[DEBUG] 2023-12-19 22:35:42.924 [main] cache - Couldn't find template in cache for "spark/partials/log.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-12-19 22:35:42.925 [main] cache - TemplateLoader.findTemplateSource("spark/partials/log_en_US.ftl"): Not found
+[DEBUG] 2023-12-19 22:35:42.926 [main] cache - TemplateLoader.findTemplateSource("spark/partials/log_en.ftl"): Not found
+[DEBUG] 2023-12-19 22:35:42.927 [main] cache - TemplateLoader.findTemplateSource("spark/partials/log.ftl"): Found
+[DEBUG] 2023-12-19 22:35:42.928 [main] cache - Loading template for "spark/partials/log.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Ahmed%20Zanoon/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/spark/partials/log.ftl"
+[DEBUG] 2023-12-19 22:35:42.931 [main] cache - Couldn't find template in cache for "spark/partials/scripts.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-12-19 22:35:42.933 [main] cache - TemplateLoader.findTemplateSource("spark/partials/scripts_en_US.ftl"): Not found
+[DEBUG] 2023-12-19 22:35:42.934 [main] cache - TemplateLoader.findTemplateSource("spark/partials/scripts_en.ftl"): Not found
+[DEBUG] 2023-12-19 22:35:42.938 [main] cache - TemplateLoader.findTemplateSource("spark/partials/scripts.ftl"): Found
+[DEBUG] 2023-12-19 22:35:42.939 [main] cache - Loading template for "spark/partials/scripts.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Ahmed%20Zanoon/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/spark/partials/scripts.ftl"
+[DEBUG] 2023-12-19 22:35:42.945 [main] cache - Couldn't find template in cache for "commons/commons-inject-js.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-12-19 22:35:42.947 [main] cache - TemplateLoader.findTemplateSource("commons/commons-inject-js_en_US.ftl"): Not found
+[DEBUG] 2023-12-19 22:35:42.949 [main] cache - TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
+[DEBUG] 2023-12-19 22:35:42.950 [main] cache - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
+[DEBUG] 2023-12-19 22:35:42.950 [main] cache - Loading template for "commons/commons-inject-js.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Ahmed%20Zanoon/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/commons/commons-inject-js.ftl"
+[INFO ] 2023-12-19 22:35:42.967 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "allure-results/cucumberReport.html"".
+[INFO ] 2023-12-19 22:35:42.970 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "allure-results/cucumberReport.html"".
+[INFO ] 2023-12-19 22:35:42.972 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "allure-results/cucumberReport.html"".
+[INFO ] 2023-12-19 22:35:43.175 [main] ReportManager - File Action "ReadFile" successfully performed. With the following test data "File Path: "D:\ShaftHQ\AssessmentTask\testCrewAssessmentTask\allure-results\cucumberReport.html"".
+[INFO ] 2023-12-19 22:35:43.315 [main] ReportManager - Successfully created attachment 'HTML - Cucumber Execution Report'
+[INFO ] 2023-12-19 22:35:43.336 [main] ReportManager - Successfully created attachment 'HTML - Checkpoints Report'
+[INFO ] 2023-12-19 22:35:43.383 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Issues log CSV: 20231219-223543'
+[WARN ] 2023-12-19 22:35:43.890 [ForkJoinPool.commonPool-worker-2] ReportManager - Dec 19, 2023 10:35:43 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+[WARN ] 2023-12-19 22:35:43.892 [ForkJoinPool.commonPool-worker-2] ReportManager - WARNING: connection closed locally
+[WARN ] 2023-12-19 22:35:43.894 [ForkJoinPool.commonPool-worker-2] ReportManager - java.io.IOException: connection closed locally
+[WARN ] 2023-12-19 22:35:43.897 [ForkJoinPool.commonPool-worker-2] ReportManager - 	at java.net.http/jdk.internal.net.http.SocketTube.signalClosed(SocketTube.java:159)
+[WARN ] 2023-12-19 22:35:43.897 [ForkJoinPool.commonPool-worker-2] ReportManager - 	at java.net.http/jdk.internal.net.http.PlainHttpConnection.close(PlainHttpConnection.java:428)
+[WARN ] 2023-12-19 22:35:43.897 [ForkJoinPool.commonPool-worker-2] ReportManager - 	at java.net.http/jdk.internal.net.http.PlainHttpConnection.close(PlainHttpConnection.java:406)
+[WARN ] 2023-12-19 22:35:43.898 [ForkJoinPool.commonPool-worker-2] ReportManager - 	at java.net.http/jdk.internal.net.http.HttpClientImpl.closeConnection(HttpClientImpl.java:606)
+[WARN ] 2023-12-19 22:35:43.898 [ForkJoinPool.commonPool-worker-2] ReportManager - 	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+[WARN ] 2023-12-19 22:35:43.899 [ForkJoinPool.commonPool-worker-2] ReportManager - 	at java.net.http/jdk.internal.net.http.HttpClientImpl.stop(HttpClientImpl.java:546)
+[WARN ] 2023-12-19 22:35:43.900 [ForkJoinPool.commonPool-worker-2] ReportManager - 	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.shutdown(HttpClientImpl.java:1239)
+[WARN ] 2023-12-19 22:35:43.901 [ForkJoinPool.commonPool-worker-2] ReportManager - 	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1441)
+[INFO ] 2023-12-19 22:35:45.572 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    Powered by [1mSHAFT v.7.4.20231211[22m                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-19 22:35:45.624 [main] ReportManager - Checking for engine updates...
+[INFO ] 2023-12-19 22:35:45.684 [main] ReportManager - Engine Update check done for the day. 👍
+[INFO ] 2023-12-19 22:35:49.347 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2023-12-19 22:35:49.390 [main] ReportManager - ===============================================
+[INFO ] 2023-12-19 22:35:49.391 [main] ReportManager - Default Suite
+[INFO ] 2023-12-19 22:35:49.391 [main] ReportManager - Total tests run: 1, Passes: 0, Failures: 1, Skips: 0
+[INFO ] 2023-12-19 22:35:49.392 [main] ReportManager - ===============================================
+[INFO ] 2023-12-19 22:35:49.422 [main] ReportManager - Executing: ".\generate_allure_report.bat" locally.
+[INFO ] 2023-12-19 22:35:49.457 [main] ReportManager - Terminal Action "PerformTerminalCommands" successfully performed. With the following test data "Host Name: "localHost" | Command: "generate_allure_report.bat" | Exit Status: "asynchronous"".
+[INFO ] 2023-12-19 22:35:49.469 [main] ReportManager - Executing: ".\extent-reports/ExtentReports_*.html" locally.
+[INFO ] 2023-12-19 22:35:50.761 [main] ReportManager - Terminal Action "PerformTerminalCommands" successfully performed. With the following test data "Host Name: "localHost" | Command: ".\extent-reports/ExtentReports_*.html" | Exit Status: "0"".
+[INFO ] 2023-12-19 22:35:50.775 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative File Path: "execution-summary/ExecutionSummaryReport_19-12-2023_22-35-50-0763-PM.html"".
+[INFO ] 2023-12-19 22:35:50.790 [main] ReportManager - File Action "WriteToFile" successfully performed. With the following test data "Target File Path: "D:\ShaftHQ\AssessmentTask\testCrewAssessmentTask\execution-summary\ExecutionSummaryReport_19-12-2023_22-35-50-0763-PM.html"".
+[INFO ] 2023-12-19 22:35:50.792 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                         Test Execution Summary Results                                                         
+                                              Total Cases: 1 --> Passed: 0 | Failed: 1 | Skipped: 0                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-19 22:35:50.793 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           This test run was powered by [1mSHAFT v.7.4.20231211[22m                                           
+                               SHAFT [1;4mis and will always be 100% FREE[22;24m for commercial and private use                               
+                                                   in compliance with the [1mMIT license[22m                                                   
+                                   Visit SHAFT's user guide [4mhttps://shafthq.github.io/[24m to learn more                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-19 22:35:52.919 [main] ReportManager - Loaded OpenCV "opencv_java481".
+[INFO ] 2023-12-19 22:35:52.923 [main] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2023-12-19 22:35:54.212 [main] ReportManager - Initializing Extent Reporting Environment...
+[INFO ] 2023-12-19 22:35:58.075 [main] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2023-12-19 22:35:58.183 [main] ReportManager - TestNG run detected...
+[INFO ] 2023-12-19 22:35:59.531 [main] Utils - [TestNG] Running:
+  C:\Users\Ahmed Zanoon\AppData\Local\JetBrains\IdeaIC2023.2\temp-testng-customsuite.xml
+
+[INFO ] 2023-12-19 22:35:59.676 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-19 22:36:00.242 [main] ReportManager - Initializing Important Links...
+[INFO ] 2023-12-19 22:36:00.276 [main] ReportManager - Initializing Properties...
+[INFO ] 2023-12-19 22:36:01.060 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of before class configuration method                                             
+                                                    'pomDesignPatternTests.Tests.BeforeClass'                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-19 22:36:01.132 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2023-12-19 22:36:01.441 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {log: {level: warn}, profile: UEsDBBQACAgIAIC0k1cAAAAAAAA...}, pageLoadStrategy: normal, timeouts: {pageLoad: 60000, script: 60000}, webSocketUrl: true}
+[INFO ] 2023-12-19 22:36:01.447 [main] ReportManager - Attempting to run locally on: "windows | Firefox".
+[INFO ] 2023-12-19 22:36:01.449 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[INFO ] 2023-12-19 22:36:33.640 [main] ReportManager - Successfully Opened: "windows | Firefox".
+[INFO ] 2023-12-19 22:36:33.761 [main] ReportManager - Initial window size: (1291, 747)
+[INFO ] 2023-12-19 22:36:34.180 [main] ReportManager - Window size after SWD Maximize: (1550, 838)
+[INFO ] 2023-12-19 22:36:34.277 [main] ReportManager - Maximize window "New screen size is now: (1550, 838)".
+[INFO ] 2023-12-19 22:36:34.332 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "testData.json"".
+[INFO ] 2023-12-19 22:36:34.349 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/testData.json"".
+[INFO ] 2023-12-19 22:36:34.355 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/testData.json"".
+[INFO ] 2023-12-19 22:36:34.373 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2023-12-19 22:36:34.450 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                            Starting execution of before method configuration method                                            
+                                                   'pomDesignPatternTests.Tests.BeforeMethod'                                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-19 22:36:35.451 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                 Test Method: 'pomDesignPatternTests.Tests.verifyInvalidWrongEmailErrorMessage'                                 
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-19 22:36:35.539 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/testData.json"".
+[INFO ] 2023-12-19 22:36:35.542 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/testData.json"".
+[INFO ] 2023-12-19 22:36:44.158 [main] ReportManager - Target URL: "https://subscribe.stctv.com/en/user-status/"
+[INFO ] 2023-12-19 22:36:44.313 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2023-12-19 22:38:17.786 [main] ReportManager - Successfully created attachment 'Browser Action Exception - Navigate to url - Stacktrace'
+[INFO ] 2023-12-19 22:38:17.840 [main] ReportManager - Successfully created attachment 'Screenshot - 1703018295060_verifyInvalidWrongEmailErrorMessage_Navigate to url_failed'
+[INFO ] 2023-12-19 22:38:18.269 [main] ReportManager - Successfully created attachment 'Database actions - Get  stack  trace - Exception Stacktrace'
+[INFO ] 2023-12-19 22:38:18.296 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: verifyInvalidWrongEmailErrorMessage'
+[INFO ] 2023-12-19 22:38:18.297 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                      Finished Execution of Test Method: 'pomDesignPatternTests.Tests.verifyInvalidWrongEmailErrorMessage'                      
+                                                              Test Status: 'Failed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-19 22:38:18.361 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of after method configuration method                                             
+                                                    'pomDesignPatternTests.Tests.afterMethod'                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-19 22:38:21.285 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2023-12-19 22:38:21.290 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: afterMethod'
+[INFO ] 2023-12-19 22:38:21.295 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine teardown configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTeardown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-19 22:38:21.298 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'
+[INFO ] 2023-12-19 22:38:21.300 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/logs/log4j.log"".
+[INFO ] 2023-12-19 22:38:21.301 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "target/logs/log4j.log"".

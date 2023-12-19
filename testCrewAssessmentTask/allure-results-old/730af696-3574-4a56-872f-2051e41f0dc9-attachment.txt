@@ -1,0 +1,119 @@
+[INFO ] 2023-12-19 22:32:39.893 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    Powered by [1mSHAFT v.7.4.20231211[22m                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-19 22:32:39.940 [main] ReportManager - Checking for engine updates...
+[INFO ] 2023-12-19 22:32:39.992 [main] ReportManager - Engine Update check done for the day. 👍
+[INFO ] 2023-12-19 22:32:43.572 [main] ReportManager - Loaded OpenCV "opencv_java481".
+[INFO ] 2023-12-19 22:32:43.574 [main] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2023-12-19 22:32:43.959 [main] ReportManager - Initializing Extent Reporting Environment...
+[INFO ] 2023-12-19 22:32:45.802 [main] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2023-12-19 22:32:45.878 [main] ReportManager - TestNG run detected...
+[INFO ] 2023-12-19 22:32:46.707 [main] Utils - [TestNG] Running:
+  C:\Users\Ahmed Zanoon\AppData\Local\JetBrains\IdeaIC2023.2\temp-testng-customsuite.xml
+
+[INFO ] 2023-12-19 22:32:46.882 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-19 22:32:47.721 [main] ReportManager - Initializing Important Links...
+[INFO ] 2023-12-19 22:32:47.761 [main] ReportManager - Initializing Properties...
+[INFO ] 2023-12-19 22:32:53.988 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "/D:/ShaftHQ/AssessmentTask/testCrewAssessmentTask/src/test/resources/ValidateSubscriptionPackages.feature"".
+[INFO ] 2023-12-19 22:32:53.991 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "/D:/ShaftHQ/AssessmentTask/testCrewAssessmentTask/src/test/resources/ValidateSubscriptionPackages.feature"".
+[INFO ] 2023-12-19 22:32:53.994 [main] ReportManager - File Action "ReadFile" successfully performed. With the following test data "File Path: "D:\ShaftHQ\AssessmentTask\testCrewAssessmentTask\src\test\resources\ValidateSubscriptionPackages.feature"".
+[INFO ] 2023-12-19 22:32:55.367 [main] ReportManager - Scenario: Navigate To Subscription Page                        [90m# src/test/resources/ValidateSubscriptionPackages.feature:3[0m
+[INFO ] 2023-12-19 22:32:55.373 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "/D:/ShaftHQ/AssessmentTask/testCrewAssessmentTask/src/test/resources/ValidateSubscriptionPackages.feature"".
+[INFO ] 2023-12-19 22:32:55.377 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "/D:/ShaftHQ/AssessmentTask/testCrewAssessmentTask/src/test/resources/ValidateSubscriptionPackages.feature"".
+[INFO ] 2023-12-19 22:32:55.380 [main] ReportManager - File Action "ReadFile" successfully performed. With the following test data "File Path: "D:\ShaftHQ\AssessmentTask\testCrewAssessmentTask\src\test\resources\ValidateSubscriptionPackages.feature"".
+[ERROR] 2023-12-19 22:32:55.386 [main] AllureLifecycle - Could not update test case: no test case running
+[ERROR] 2023-12-19 22:32:55.388 [main] AllureLifecycle - Could not update test case: no test case running
+[ERROR] 2023-12-19 22:32:55.390 [main] AllureLifecycle - Could not update test case: no test case running
+[INFO ] 2023-12-19 22:32:55.525 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+Starting Execution: "1 out of 1" scenarios in the "Validate Subscription Package Type , Price , Currency For Each Available Country on Subscriptions Page" feature
+                                                 Scenario Name: "Navigate To Subscription Page"                                                 
+                                                                 Scenario Steps:                                                                 
+                                                            Given I Open The Browser                                                            
+                                             When I Navigate To "https://subscribe.stctv.com/sa-en"                                             
+                                                     And I assert That Chosen Country Is KSA                                                     
+                                            Then I assert That Package "LITE" Price Equals "15" "SAR"                                            
+                                           And I assert That Package "CLASSIC" Price Equals "25" "SAR"                                           
+                                           And I assert That Package "PREMIUM" Price Equals "60" "SAR"                                           
+                                                      When I Change The Country To Bahrain                                                      
+                                            Then I assert That Package "LITE" Price Equals "2" "BHD"                                            
+                                           And I assert That Package "CLASSIC" Price Equals "3" "BHD"                                           
+                                           And I assert That Package "PREMIUM" Price Equals "6" "BHD"                                           
+                                                       When I Change The Country To Kuwait                                                       
+                                           Then I assert That Package "LITE" Price Equals "1.2" "KWD"                                           
+                                          And I assert That Package "CLASSIC" Price Equals "2.5" "KWD"                                          
+                                          And I assert That Package "PREMIUM" Price Equals "4.8" "KWD"                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-19 22:32:55.563 [main] ReportManager - Scenario Step: Given I Open The Browser
+[INFO ] 2023-12-19 22:32:55.589 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2023-12-19 22:32:55.829 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {log: {level: warn}, profile: UEsDBBQACAgIABu0k1cAAAAAAAA...}, pageLoadStrategy: normal, timeouts: {pageLoad: 60000, script: 60000}, webSocketUrl: true}
+[INFO ] 2023-12-19 22:32:55.834 [main] ReportManager - Attempting to run locally on: "windows | Firefox".
+[INFO ] 2023-12-19 22:32:55.835 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[INFO ] 2023-12-19 22:33:10.494 [main] ReportManager - Successfully Opened: "windows | Firefox".
+[INFO ] 2023-12-19 22:33:10.660 [main] ReportManager - Initial window size: (1291, 747)
+[INFO ] 2023-12-19 22:33:11.050 [main] ReportManager - Window size after SWD Maximize: (1550, 838)
+[INFO ] 2023-12-19 22:33:11.090 [main] ReportManager - Maximize window "New screen size is now: (1550, 838)".
+[INFO ] 2023-12-19 22:33:11.120 [main] ReportManager -   [32mGiven [0m[32mI Open The Browser[0m                                     [90m# cucumberSteps.Steps.i_open_the_browser()[0m
+[INFO ] 2023-12-19 22:33:11.139 [main] ReportManager - Scenario Step: When I Navigate To "https://subscribe.stctv.com/sa-en"
+[INFO ] 2023-12-19 22:33:11.156 [main] ReportManager - Target URL: "https://subscribe.stctv.com/sa-en"
+[INFO ] 2023-12-19 22:33:11.249 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2023-12-19 22:34:33.788 [main] ReportManager - Navigate to url "https://subscribe.stctv.com/sa-en".
+[INFO ] 2023-12-19 22:34:33.790 [main] ReportManager -   [32mWhen [0m[32mI Navigate To [0m[32m[1m"https://subscribe.stctv.com/sa-en"[0m       [90m# cucumberSteps.Steps.I_Navigate_To(java.lang.String)[0m
+[INFO ] 2023-12-19 22:34:33.797 [main] ReportManager - Scenario Step: And I assert That Chosen Country Is KSA
+[INFO ] 2023-12-19 22:35:33.975 [main] ReportManager - Expected condition failed: waiting for com.shaft.gui.element.internal.ElementActionsHelper$$Lambda/0x0000028681663428@5a880dbe (tried for 60 second(s) with 100 milliseconds interval) || Unable to locate element: //div[@id='country']//img[@alt='sa']
+[INFO ] 2023-12-19 22:35:38.448 [main] ReportManager - Assertion "ValidateElementExists" FAILED. Expected "Element Should Exist, locator 'By.xpath: //div[@id='country']//img[@alt='sa']'" and Actual "Element Doesn't Exists". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-12-19 22:35:38.571 [main] ReportManager - Successfully created attachment 'Screenshot - 1703018134340_runScenario_ValidateElementExists_failed'
+[INFO ] 2023-12-19 22:35:38.604 [main] ReportManager - Successfully created attachment 'Validation Test Data - Failure Reason'
+[INFO ] 2023-12-19 22:35:38.618 [main] ReportManager - Assertion "ValidateElementExists" FAILED. Expected "Element Should Exist, locator 'By.xpath: //div[@id='country']//img[@alt='sa']'" and Actual "Element Doesn't Exists". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-12-19 22:35:38.682 [main] ReportManager -   [31mAnd [0m[31mI assert That Chosen Country Is KSA[0m                      [90m# cucumberSteps.Steps.I_Assert_That_ChosenCountry_Is_KSA()[0m
+[INFO ] 2023-12-19 22:35:38.683 [main] ReportManager -       [31mjava.lang.AssertionError: Assertion "ValidateElementExists" FAILED. Expected "Element Should Exist, locator 'By.xpath: //div[@id='country']//img[@alt='sa']'" and Actual "Element Doesn't Exists". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-12-19 22:35:38.684 [main] ReportManager - 	at org.testng.Assert.fail(Assert.java:111)
+[INFO ] 2023-12-19 22:35:38.684 [main] ReportManager - 	at com.shaft.tools.io.internal.FailureReporter.fail(FailureReporter.java:43)
+[INFO ] 2023-12-19 22:35:38.685 [main] ReportManager - 	at com.shaft.validation.internal.ValidationsHelper.reportValidationState(ValidationsHelper.java:650)
+[INFO ] 2023-12-19 22:35:38.685 [main] ReportManager - 	at com.shaft.validation.internal.ValidationsHelper.fail(ValidationsHelper.java:395)
+[INFO ] 2023-12-19 22:35:38.685 [main] ReportManager - 	at com.shaft.validation.internal.ValidationsHelper.validateElementExists(ValidationsHelper.java:114)
+[INFO ] 2023-12-19 22:35:38.686 [main] ReportManager - 	at com.shaft.validation.internal.ValidationsExecutor.performValidation(ValidationsExecutor.java:163)
+[INFO ] 2023-12-19 22:35:38.688 [main] ReportManager - 	at com.shaft.validation.internal.ValidationsExecutor.perform(ValidationsExecutor.java:149)
+[INFO ] 2023-12-19 22:35:38.689 [main] ReportManager - 	at cucumberSteps.Steps.I_Assert_That_ChosenCountry_Is_KSA(Steps.java:26)
+[INFO ] 2023-12-19 22:35:38.690 [main] ReportManager - 	at ￢ﾜﾽ.I assert That Chosen Country Is KSA(file:///D:/ShaftHQ/AssessmentTask/testCrewAssessmentTask/src/test/resources/ValidateSubscriptionPackages.feature:8)
+[INFO ] 2023-12-19 22:35:38.690 [main] ReportManager - [0m
+[INFO ] 2023-12-19 22:35:38.705 [main] ReportManager - Scenario Step: Then I assert That Package "LITE" Price Equals "15" "SAR"
+[INFO ] 2023-12-19 22:35:38.715 [main] ReportManager -   [36mThen [0m[36mI assert That Package [0m[36m[1m"LITE"[0m[36m Price Equals [0m[36m[1m"15"[0m[36m [0m[36m[1m"SAR"[0m    [90m# cucumberSteps.Steps.I_Assert_Package_Price(java.lang.String,java.lang.String,java.lang.String)[0m
+[INFO ] 2023-12-19 22:35:38.728 [main] ReportManager - Scenario Step: And I assert That Package "CLASSIC" Price Equals "25" "SAR"
+[INFO ] 2023-12-19 22:35:38.731 [main] ReportManager -   [36mAnd [0m[36mI assert That Package [0m[36m[1m"CLASSIC"[0m[36m Price Equals [0m[36m[1m"25"[0m[36m [0m[36m[1m"SAR"[0m  [90m# cucumberSteps.Steps.I_Assert_Package_Price(java.lang.String,java.lang.String,java.lang.String)[0m
+[INFO ] 2023-12-19 22:35:38.740 [main] ReportManager - Scenario Step: And I assert That Package "PREMIUM" Price Equals "60" "SAR"
+[INFO ] 2023-12-19 22:35:38.743 [main] ReportManager -   [36mAnd [0m[36mI assert That Package [0m[36m[1m"PREMIUM"[0m[36m Price Equals [0m[36m[1m"60"[0m[36m [0m[36m[1m"SAR"[0m  [90m# cucumberSteps.Steps.I_Assert_Package_Price(java.lang.String,java.lang.String,java.lang.String)[0m
+[INFO ] 2023-12-19 22:35:38.746 [main] ReportManager - Scenario Step: When I Change The Country To Bahrain
+[INFO ] 2023-12-19 22:35:38.748 [main] ReportManager -   [36mWhen [0m[36mI Change The Country To Bahrain[0m                         [90m# cucumberSteps.Steps.I_Change_The_Country_To_Bahrain()[0m
+[INFO ] 2023-12-19 22:35:38.755 [main] ReportManager - Scenario Step: Then I assert That Package "LITE" Price Equals "2" "BHD"
+[INFO ] 2023-12-19 22:35:38.761 [main] ReportManager -   [36mThen [0m[36mI assert That Package [0m[36m[1m"LITE"[0m[36m Price Equals [0m[36m[1m"2"[0m[36m [0m[36m[1m"BHD"[0m     [90m# cucumberSteps.Steps.I_Assert_Package_Price(java.lang.String,java.lang.String,java.lang.String)[0m
+[INFO ] 2023-12-19 22:35:38.766 [main] ReportManager - Scenario Step: And I assert That Package "CLASSIC" Price Equals "3" "BHD"
+[INFO ] 2023-12-19 22:35:38.770 [main] ReportManager -   [36mAnd [0m[36mI assert That Package [0m[36m[1m"CLASSIC"[0m[36m Price Equals [0m[36m[1m"3"[0m[36m [0m[36m[1m"BHD"[0m   [90m# cucumberSteps.Steps.I_Assert_Package_Price(java.lang.String,java.lang.String,java.lang.String)[0m
+[INFO ] 2023-12-19 22:35:38.774 [main] ReportManager - Scenario Step: And I assert That Package "PREMIUM" Price Equals "6" "BHD"
+[INFO ] 2023-12-19 22:35:38.777 [main] ReportManager -   [36mAnd [0m[36mI assert That Package [0m[36m[1m"PREMIUM"[0m[36m Price Equals [0m[36m[1m"6"[0m[36m [0m[36m[1m"BHD"[0m   [90m# cucumberSteps.Steps.I_Assert_Package_Price(java.lang.String,java.lang.String,java.lang.String)[0m
+[INFO ] 2023-12-19 22:35:38.784 [main] ReportManager - Scenario Step: When I Change The Country To Kuwait
+[INFO ] 2023-12-19 22:35:38.790 [main] ReportManager -   [36mWhen [0m[36mI Change The Country To Kuwait[0m                          [90m# cucumberSteps.Steps.I_Change_The_Country_To_kuwait()[0m
+[INFO ] 2023-12-19 22:35:38.800 [main] ReportManager - Scenario Step: Then I assert That Package "LITE" Price Equals "1.2" "KWD"
+[INFO ] 2023-12-19 22:35:38.806 [main] ReportManager -   [36mThen [0m[36mI assert That Package [0m[36m[1m"LITE"[0m[36m Price Equals [0m[36m[1m"1.2"[0m[36m [0m[36m[1m"KWD"[0m   [90m# cucumberSteps.Steps.I_Assert_Package_Price(java.lang.String,java.lang.String,java.lang.String)[0m
+[INFO ] 2023-12-19 22:35:38.811 [main] ReportManager - Scenario Step: And I assert That Package "CLASSIC" Price Equals "2.5" "KWD"
+[INFO ] 2023-12-19 22:35:38.814 [main] ReportManager -   [36mAnd [0m[36mI assert That Package [0m[36m[1m"CLASSIC"[0m[36m Price Equals [0m[36m[1m"2.5"[0m[36m [0m[36m[1m"KWD"[0m [90m# cucumberSteps.Steps.I_Assert_Package_Price(java.lang.String,java.lang.String,java.lang.String)[0m
+[INFO ] 2023-12-19 22:35:38.821 [main] ReportManager - Scenario Step: And I assert That Package "PREMIUM" Price Equals "4.8" "KWD"
+[INFO ] 2023-12-19 22:35:38.826 [main] ReportManager -   [36mAnd [0m[36mI assert That Package [0m[36m[1m"PREMIUM"[0m[36m Price Equals [0m[36m[1m"4.8"[0m[36m [0m[36m[1m"KWD"[0m [90m# cucumberSteps.Steps.I_Assert_Package_Price(java.lang.String,java.lang.String,java.lang.String)[0m
+[INFO ] 2023-12-19 22:35:39.829 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: runScenario'
+[INFO ] 2023-12-19 22:35:40.232 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine teardown configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTeardown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-19 22:35:40.239 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'
+[INFO ] 2023-12-19 22:35:40.244 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/logs/log4j.log"".
+[INFO ] 2023-12-19 22:35:40.246 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "target/logs/log4j.log"".

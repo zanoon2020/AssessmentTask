@@ -1,0 +1,197 @@
+[INFO ] 2023-12-19 22:48:51.067 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    Powered by [1mSHAFT v.7.4.20231211[22m                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-19 22:48:51.100 [main] ReportManager - Checking for engine updates...
+[INFO ] 2023-12-19 22:48:51.143 [main] ReportManager - Engine Update check done for the day. 👍
+[INFO ] 2023-12-19 22:48:53.933 [main] ReportManager - Loaded OpenCV "opencv_java481".
+[INFO ] 2023-12-19 22:48:53.934 [main] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2023-12-19 22:48:54.252 [main] ReportManager - Initializing Extent Reporting Environment...
+[INFO ] 2023-12-19 22:48:55.528 [main] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2023-12-19 22:48:55.575 [main] ReportManager - TestNG run detected...
+[INFO ] 2023-12-19 22:48:56.187 [main] Utils - [TestNG] Running:
+  C:\Users\Ahmed Zanoon\AppData\Local\JetBrains\IdeaIC2023.2\temp-testng-customsuite.xml
+
+[INFO ] 2023-12-19 22:48:56.290 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-19 22:48:56.773 [main] ReportManager - Initializing Important Links...
+[INFO ] 2023-12-19 22:48:56.797 [main] ReportManager - Initializing Properties...
+[INFO ] 2023-12-19 22:48:57.134 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of before class configuration method                                             
+                                                    'pomDesignPatternTests.Tests.BeforeClass'                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-19 22:48:57.185 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2023-12-19 22:48:57.241 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: MicrosoftEdge, ms:edgeOptions: {args: [--start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: D:\ShaftHQ\AssessmentTask\t..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2023-12-19 22:48:57.244 [main] ReportManager - Attempting to run locally on: "windows | Microsoft edge".
+[INFO ] 2023-12-19 22:48:57.245 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[INFO ] 2023-12-19 22:49:04.189 [main] ReportManager - Successfully Opened: "windows | Microsoft edge".
+[INFO ] 2023-12-19 22:49:04.221 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "testData.json"".
+[INFO ] 2023-12-19 22:49:04.226 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/testData.json"".
+[INFO ] 2023-12-19 22:49:04.229 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/testData.json"".
+[INFO ] 2023-12-19 22:49:04.241 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2023-12-19 22:49:04.298 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                            Starting execution of before method configuration method                                            
+                                                   'pomDesignPatternTests.Tests.BeforeMethod'                                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-19 22:49:05.041 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                      Test Method: 'pomDesignPatternTests.Tests.verifyPackageTypeAndPrice'                                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-19 22:49:05.102 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/testData.json"".
+[INFO ] 2023-12-19 22:49:05.105 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/testData.json"".
+[INFO ] 2023-12-19 22:49:12.124 [main] ReportManager - Target URL: "https://subscribe.stctv.com/sa-en"
+[INFO ] 2023-12-19 22:49:12.251 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2023-12-19 22:49:23.016 [main] ReportManager - Navigate to url "https://subscribe.stctv.com/sa-en".
+[INFO ] 2023-12-19 22:49:28.317 [main] ReportManager - Assertion "ValidateElementExists" PASSED. Expected "Element Should Exist, locator 'By.xpath: //div[@id='country']//img[@alt='sa']'" and Actual "Element Exists". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-12-19 22:49:28.386 [main] ReportManager - Successfully created attachment 'Screenshot - 1703018965869_verifyPackageTypeAndPrice_ValidateElementExists_passed'
+[INFO ] 2023-12-19 22:49:28.808 [main] ReportManager - Get text "LITE" from "By.id: name-lite".
+[INFO ] 2023-12-19 22:49:28.809 [main] ReportManager - Expected "LITE", and actual "LITE"
+[INFO ] 2023-12-19 22:49:29.713 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'LITE' for the 'text' attribute, element locator 'By.id: name-lite'" and Actual "LITE". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-12-19 22:49:29.721 [main] ReportManager - Successfully created attachment 'Screenshot - 1703018969486_verifyPackageTypeAndPrice_ValidateElementAttribute_passed'
+[INFO ] 2023-12-19 22:49:30.032 [main] ReportManager - Get text "15" from "By.xpath: //*[@id='currency-lite']//b".
+[INFO ] 2023-12-19 22:49:30.033 [main] ReportManager - Expected "15", and actual "15"
+[INFO ] 2023-12-19 22:49:31.226 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be '15' for the 'text' attribute, element locator 'By.xpath: //*[@id='currency-lite']//b'" and Actual "15". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-12-19 22:49:31.244 [main] ReportManager - Successfully created attachment 'Screenshot - 1703018970753_verifyPackageTypeAndPrice_ValidateElementAttribute_passed'
+[INFO ] 2023-12-19 22:49:31.733 [main] ReportManager - Get text "SAR/month" from "By.xpath: //*[@id='currency-lite']//i".
+[INFO ] 2023-12-19 22:49:31.734 [main] ReportManager - Expected "SAR", and actual "SAR/month"
+[INFO ] 2023-12-19 22:49:33.251 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'SAR' for the 'text' attribute, element locator 'By.xpath: //*[@id='currency-lite']//i'" and Actual "SAR/month". Comparison Type "CONTAINS". Validation Type "POSITIVE".
+[INFO ] 2023-12-19 22:49:33.260 [main] ReportManager - Successfully created attachment 'Screenshot - 1703018972792_verifyPackageTypeAndPrice_ValidateElementAttribute_passed'
+[INFO ] 2023-12-19 22:49:33.680 [main] ReportManager - Get text "CLASSIC" from "By.id: name-classic".
+[INFO ] 2023-12-19 22:49:33.682 [main] ReportManager - Expected "CLASSIC", and actual "CLASSIC"
+[INFO ] 2023-12-19 22:49:34.657 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'CLASSIC' for the 'text' attribute, element locator 'By.id: name-classic'" and Actual "CLASSIC". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-12-19 22:49:34.665 [main] ReportManager - Successfully created attachment 'Screenshot - 1703018974446_verifyPackageTypeAndPrice_ValidateElementAttribute_passed'
+[INFO ] 2023-12-19 22:49:35.140 [main] ReportManager - Get text "25" from "By.xpath: //*[@id='currency-classic']//b".
+[INFO ] 2023-12-19 22:49:35.141 [main] ReportManager - Expected "25", and actual "25"
+[INFO ] 2023-12-19 22:49:37.113 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be '25' for the 'text' attribute, element locator 'By.xpath: //*[@id='currency-classic']//b'" and Actual "25". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-12-19 22:49:37.145 [main] ReportManager - Successfully created attachment 'Screenshot - 1703018976183_verifyPackageTypeAndPrice_ValidateElementAttribute_passed'
+[INFO ] 2023-12-19 22:49:38.929 [main] ReportManager - Get text "SAR/month" from "By.xpath: //*[@id='currency-classic']//i".
+[INFO ] 2023-12-19 22:49:38.932 [main] ReportManager - Expected "SAR", and actual "SAR/month"
+[INFO ] 2023-12-19 22:49:39.980 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'SAR' for the 'text' attribute, element locator 'By.xpath: //*[@id='currency-classic']//i'" and Actual "SAR/month". Comparison Type "CONTAINS". Validation Type "POSITIVE".
+[INFO ] 2023-12-19 22:49:39.990 [main] ReportManager - Successfully created attachment 'Screenshot - 1703018979688_verifyPackageTypeAndPrice_ValidateElementAttribute_passed'
+[INFO ] 2023-12-19 22:49:40.460 [main] ReportManager - Get text "PREMIUM" from "By.id: name-premium".
+[INFO ] 2023-12-19 22:49:40.461 [main] ReportManager - Expected "PREMIUM", and actual "PREMIUM"
+[INFO ] 2023-12-19 22:49:41.337 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'PREMIUM' for the 'text' attribute, element locator 'By.id: name-premium'" and Actual "PREMIUM". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-12-19 22:49:41.344 [main] ReportManager - Successfully created attachment 'Screenshot - 1703018981129_verifyPackageTypeAndPrice_ValidateElementAttribute_passed'
+[INFO ] 2023-12-19 22:49:41.649 [main] ReportManager - Get text "60" from "By.xpath: //*[@id='currency-premium']//b".
+[INFO ] 2023-12-19 22:49:41.650 [main] ReportManager - Expected "60", and actual "60"
+[INFO ] 2023-12-19 22:49:42.644 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be '60' for the 'text' attribute, element locator 'By.xpath: //*[@id='currency-premium']//b'" and Actual "60". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-12-19 22:49:42.654 [main] ReportManager - Successfully created attachment 'Screenshot - 1703018982327_verifyPackageTypeAndPrice_ValidateElementAttribute_passed'
+[INFO ] 2023-12-19 22:49:42.991 [main] ReportManager - Get text "SAR/month" from "By.xpath: //*[@id='currency-premium']//i".
+[INFO ] 2023-12-19 22:49:42.992 [main] ReportManager - Expected "SAR", and actual "SAR/month"
+[INFO ] 2023-12-19 22:49:44.764 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'SAR' for the 'text' attribute, element locator 'By.xpath: //*[@id='currency-premium']//i'" and Actual "SAR/month". Comparison Type "CONTAINS". Validation Type "POSITIVE".
+[INFO ] 2023-12-19 22:49:44.774 [main] ReportManager - Successfully created attachment 'Screenshot - 1703018984101_verifyPackageTypeAndPrice_ValidateElementAttribute_passed'
+[INFO ] 2023-12-19 22:49:45.354 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-12-19 22:49:45.593 [main] ReportManager - Click "sa KSA".
+[INFO ] 2023-12-19 22:49:46.247 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-12-19 22:49:46.543 [main] ReportManager - Click "bh Bahrain".
+[INFO ] 2023-12-19 22:49:54.225 [main] ReportManager - Get text "LITE" from "By.id: name-lite".
+[INFO ] 2023-12-19 22:49:54.226 [main] ReportManager - Expected "LITE", and actual "LITE"
+[INFO ] 2023-12-19 22:49:55.138 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'LITE' for the 'text' attribute, element locator 'By.id: name-lite'" and Actual "LITE". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-12-19 22:49:55.145 [main] ReportManager - Successfully created attachment 'Screenshot - 1703018994903_verifyPackageTypeAndPrice_ValidateElementAttribute_passed'
+[INFO ] 2023-12-19 22:49:55.418 [main] ReportManager - Get text "2" from "By.xpath: //*[@id='currency-lite']//b".
+[INFO ] 2023-12-19 22:49:55.419 [main] ReportManager - Expected "2", and actual "2"
+[INFO ] 2023-12-19 22:49:56.247 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be '2' for the 'text' attribute, element locator 'By.xpath: //*[@id='currency-lite']//b'" and Actual "2". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-12-19 22:49:56.255 [main] ReportManager - Successfully created attachment 'Screenshot - 1703018996011_verifyPackageTypeAndPrice_ValidateElementAttribute_passed'
+[INFO ] 2023-12-19 22:49:56.531 [main] ReportManager - Get text "BHD/month" from "By.xpath: //*[@id='currency-lite']//i".
+[INFO ] 2023-12-19 22:49:56.532 [main] ReportManager - Expected "BHD", and actual "BHD/month"
+[INFO ] 2023-12-19 22:49:57.678 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'BHD' for the 'text' attribute, element locator 'By.xpath: //*[@id='currency-lite']//i'" and Actual "BHD/month". Comparison Type "CONTAINS". Validation Type "POSITIVE".
+[INFO ] 2023-12-19 22:49:57.687 [main] ReportManager - Successfully created attachment 'Screenshot - 1703018997375_verifyPackageTypeAndPrice_ValidateElementAttribute_passed'
+[INFO ] 2023-12-19 22:49:58.037 [main] ReportManager - Get text "CLASSIC" from "By.id: name-classic".
+[INFO ] 2023-12-19 22:49:58.038 [main] ReportManager - Expected "CLASSIC", and actual "CLASSIC"
+[INFO ] 2023-12-19 22:49:59.044 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'CLASSIC' for the 'text' attribute, element locator 'By.id: name-classic'" and Actual "CLASSIC". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-12-19 22:49:59.053 [main] ReportManager - Successfully created attachment 'Screenshot - 1703018998799_verifyPackageTypeAndPrice_ValidateElementAttribute_passed'
+[INFO ] 2023-12-19 22:49:59.394 [main] ReportManager - Get text "3" from "By.xpath: //*[@id='currency-classic']//b".
+[INFO ] 2023-12-19 22:49:59.394 [main] ReportManager - Expected "3", and actual "3"
+[INFO ] 2023-12-19 22:50:00.329 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be '3' for the 'text' attribute, element locator 'By.xpath: //*[@id='currency-classic']//b'" and Actual "3". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-12-19 22:50:00.336 [main] ReportManager - Successfully created attachment 'Screenshot - 1703019000025_verifyPackageTypeAndPrice_ValidateElementAttribute_passed'
+[INFO ] 2023-12-19 22:50:00.588 [main] ReportManager - Get text "BHD/month" from "By.xpath: //*[@id='currency-classic']//i".
+[INFO ] 2023-12-19 22:50:00.588 [main] ReportManager - Expected "BHD", and actual "BHD/month"
+[INFO ] 2023-12-19 22:50:01.385 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'BHD' for the 'text' attribute, element locator 'By.xpath: //*[@id='currency-classic']//i'" and Actual "BHD/month". Comparison Type "CONTAINS". Validation Type "POSITIVE".
+[INFO ] 2023-12-19 22:50:01.393 [main] ReportManager - Successfully created attachment 'Screenshot - 1703019001156_verifyPackageTypeAndPrice_ValidateElementAttribute_passed'
+[INFO ] 2023-12-19 22:50:01.663 [main] ReportManager - Get text "PREMIUM" from "By.id: name-premium".
+[INFO ] 2023-12-19 22:50:01.664 [main] ReportManager - Expected "PREMIUM", and actual "PREMIUM"
+[INFO ] 2023-12-19 22:50:03.039 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'PREMIUM' for the 'text' attribute, element locator 'By.id: name-premium'" and Actual "PREMIUM". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-12-19 22:50:03.054 [main] ReportManager - Successfully created attachment 'Screenshot - 1703019002415_verifyPackageTypeAndPrice_ValidateElementAttribute_passed'
+[INFO ] 2023-12-19 22:50:03.412 [main] ReportManager - Get text "6" from "By.xpath: //*[@id='currency-premium']//b".
+[INFO ] 2023-12-19 22:50:03.412 [main] ReportManager - Expected "6", and actual "6"
+[INFO ] 2023-12-19 22:50:04.799 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be '6' for the 'text' attribute, element locator 'By.xpath: //*[@id='currency-premium']//b'" and Actual "6". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-12-19 22:50:04.811 [main] ReportManager - Successfully created attachment 'Screenshot - 1703019004399_verifyPackageTypeAndPrice_ValidateElementAttribute_passed'
+[INFO ] 2023-12-19 22:50:05.234 [main] ReportManager - Get text "BHD/month" from "By.xpath: //*[@id='currency-premium']//i".
+[INFO ] 2023-12-19 22:50:05.235 [main] ReportManager - Expected "BHD", and actual "BHD/month"
+[INFO ] 2023-12-19 22:50:06.256 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'BHD' for the 'text' attribute, element locator 'By.xpath: //*[@id='currency-premium']//i'" and Actual "BHD/month". Comparison Type "CONTAINS". Validation Type "POSITIVE".
+[INFO ] 2023-12-19 22:50:06.262 [main] ReportManager - Successfully created attachment 'Screenshot - 1703019006024_verifyPackageTypeAndPrice_ValidateElementAttribute_passed'
+[INFO ] 2023-12-19 22:50:06.508 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-12-19 22:50:06.612 [main] ReportManager - Click "bh Bahrain".
+[INFO ] 2023-12-19 22:50:07.065 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-12-19 22:50:07.205 [main] ReportManager - Click "kw Kuwait".
+[INFO ] 2023-12-19 22:50:12.423 [main] ReportManager - Get text "LITE" from "By.id: name-lite".
+[INFO ] 2023-12-19 22:50:12.424 [main] ReportManager - Expected "LITE", and actual "LITE"
+[INFO ] 2023-12-19 22:50:13.196 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'LITE' for the 'text' attribute, element locator 'By.id: name-lite'" and Actual "LITE". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-12-19 22:50:13.202 [main] ReportManager - Successfully created attachment 'Screenshot - 1703019012989_verifyPackageTypeAndPrice_ValidateElementAttribute_passed'
+[INFO ] 2023-12-19 22:50:13.466 [main] ReportManager - Get text "1.2" from "By.xpath: //*[@id='currency-lite']//b".
+[INFO ] 2023-12-19 22:50:13.467 [main] ReportManager - Expected "1.2", and actual "1.2"
+[INFO ] 2023-12-19 22:50:14.446 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be '1.2' for the 'text' attribute, element locator 'By.xpath: //*[@id='currency-lite']//b'" and Actual "1.2". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-12-19 22:50:14.457 [main] ReportManager - Successfully created attachment 'Screenshot - 1703019014140_verifyPackageTypeAndPrice_ValidateElementAttribute_passed'
+[INFO ] 2023-12-19 22:50:14.796 [main] ReportManager - Get text "KWD/month" from "By.xpath: //*[@id='currency-lite']//i".
+[INFO ] 2023-12-19 22:50:14.797 [main] ReportManager - Expected "KWD", and actual "KWD/month"
+[INFO ] 2023-12-19 22:50:16.219 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'KWD' for the 'text' attribute, element locator 'By.xpath: //*[@id='currency-lite']//i'" and Actual "KWD/month". Comparison Type "CONTAINS". Validation Type "POSITIVE".
+[INFO ] 2023-12-19 22:50:16.230 [main] ReportManager - Successfully created attachment 'Screenshot - 1703019015772_verifyPackageTypeAndPrice_ValidateElementAttribute_passed'
+[INFO ] 2023-12-19 22:50:16.534 [main] ReportManager - Get text "CLASSIC" from "By.id: name-classic".
+[INFO ] 2023-12-19 22:50:16.535 [main] ReportManager - Expected "CLASSIC", and actual "CLASSIC"
+[INFO ] 2023-12-19 22:50:17.314 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'CLASSIC' for the 'text' attribute, element locator 'By.id: name-classic'" and Actual "CLASSIC". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-12-19 22:50:17.320 [main] ReportManager - Successfully created attachment 'Screenshot - 1703019017146_verifyPackageTypeAndPrice_ValidateElementAttribute_passed'
+[INFO ] 2023-12-19 22:50:17.496 [main] ReportManager - Get text "2.5" from "By.xpath: //*[@id='currency-classic']//b".
+[INFO ] 2023-12-19 22:50:17.497 [main] ReportManager - Expected "2.5", and actual "2.5"
+[INFO ] 2023-12-19 22:50:18.217 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be '2.5' for the 'text' attribute, element locator 'By.xpath: //*[@id='currency-classic']//b'" and Actual "2.5". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-12-19 22:50:18.222 [main] ReportManager - Successfully created attachment 'Screenshot - 1703019018037_verifyPackageTypeAndPrice_ValidateElementAttribute_passed'
+[INFO ] 2023-12-19 22:50:18.394 [main] ReportManager - Get text "KWD/month" from "By.xpath: //*[@id='currency-classic']//i".
+[INFO ] 2023-12-19 22:50:18.394 [main] ReportManager - Expected "KWD", and actual "KWD/month"
+[INFO ] 2023-12-19 22:50:19.249 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'KWD' for the 'text' attribute, element locator 'By.xpath: //*[@id='currency-classic']//i'" and Actual "KWD/month". Comparison Type "CONTAINS". Validation Type "POSITIVE".
+[INFO ] 2023-12-19 22:50:19.255 [main] ReportManager - Successfully created attachment 'Screenshot - 1703019019022_verifyPackageTypeAndPrice_ValidateElementAttribute_passed'
+[INFO ] 2023-12-19 22:50:19.416 [main] ReportManager - Get text "PREMIUM" from "By.id: name-premium".
+[INFO ] 2023-12-19 22:50:19.416 [main] ReportManager - Expected "PREMIUM", and actual "PREMIUM"
+[INFO ] 2023-12-19 22:50:20.321 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'PREMIUM' for the 'text' attribute, element locator 'By.id: name-premium'" and Actual "PREMIUM". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-12-19 22:50:20.327 [main] ReportManager - Successfully created attachment 'Screenshot - 1703019019978_verifyPackageTypeAndPrice_ValidateElementAttribute_passed'
+[INFO ] 2023-12-19 22:50:20.524 [main] ReportManager - Get text "4.8" from "By.xpath: //*[@id='currency-premium']//b".
+[INFO ] 2023-12-19 22:50:20.525 [main] ReportManager - Expected "4.8", and actual "4.8"
+[INFO ] 2023-12-19 22:50:21.364 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be '4.8' for the 'text' attribute, element locator 'By.xpath: //*[@id='currency-premium']//b'" and Actual "4.8". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-12-19 22:50:21.370 [main] ReportManager - Successfully created attachment 'Screenshot - 1703019021129_verifyPackageTypeAndPrice_ValidateElementAttribute_passed'
+[INFO ] 2023-12-19 22:50:21.614 [main] ReportManager - Get text "KWD/month" from "By.xpath: //*[@id='currency-premium']//i".
+[INFO ] 2023-12-19 22:50:21.615 [main] ReportManager - Expected "KWD", and actual "KWD/month"
+[INFO ] 2023-12-19 22:50:22.390 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'KWD' for the 'text' attribute, element locator 'By.xpath: //*[@id='currency-premium']//i'" and Actual "KWD/month". Comparison Type "CONTAINS". Validation Type "POSITIVE".
+[INFO ] 2023-12-19 22:50:22.395 [main] ReportManager - Successfully created attachment 'Screenshot - 1703019022203_verifyPackageTypeAndPrice_ValidateElementAttribute_passed'
+[INFO ] 2023-12-19 22:50:22.404 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: verifyPackageTypeAndPrice'
+[INFO ] 2023-12-19 22:50:22.405 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                           Finished Execution of Test Method: 'pomDesignPatternTests.Tests.verifyPackageTypeAndPrice'                           
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-19 22:50:22.438 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of after method configuration method                                             
+                                                    'pomDesignPatternTests.Tests.afterMethod'                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-19 22:50:23.530 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2023-12-19 22:50:23.534 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: afterMethod'
+[INFO ] 2023-12-19 22:50:23.538 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine teardown configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTeardown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-19 22:50:23.540 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'
+[INFO ] 2023-12-19 22:50:23.540 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/logs/log4j.log"".
+[INFO ] 2023-12-19 22:50:23.541 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "target/logs/log4j.log"".

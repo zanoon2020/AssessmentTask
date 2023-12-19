@@ -5,30 +5,35 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import pages.LoginPage;
 import pages.PackagesPage;
+import pages.VoucherPage;
 
 public class Tests {
 
     private SHAFT.GUI.WebDriver driver ;
     private SHAFT.TestData.JSON testData;
     private PackagesPage packagesPage;
-
+    private LoginPage loginPage ;
+    private VoucherPage voucherPage;
     @BeforeClass(description = "Setup Browser Instance.")
     public void BeforeClass(){
-        driver = new SHAFT.GUI.WebDriver();
         testData = new SHAFT.TestData.JSON("testData.json");
     }
     @BeforeMethod()
     public void BeforeMethod(){
+        driver = new SHAFT.GUI.WebDriver();
         packagesPage = new PackagesPage(driver);
+        loginPage = new LoginPage(driver);
+        voucherPage = new VoucherPage(driver);
     }
     @AfterMethod
     public void afterMethod() {
         driver.quit();
     }
 
-    @Test
-    public void verifyPackageTypeAndPrice(){
+    @Test (description = "Verify Subscription Packages's Type And Price ")
+    public void _01verifyPackageTypeAndPrice(){
         packagesPage.navigateTo(testData.getTestData("url"));
         packagesPage.verifyThatchosenCountryIsKsa();
         packagesPage.verifyPackageNameAndPrice("LITE","15","SAR");
@@ -44,6 +49,32 @@ public class Tests {
         packagesPage.verifyPackageNameAndPrice("PREMIUM","4.8","KWD");
     }
 
+
+    @Test(description = "negative Scenario : Logging With Invalid Email Format")
+    public void _02verifyInvalidWrongEmailErrorMessage(){
+        loginPage.navigateToLoginPage(testData.getTestData("signInPage"));
+        loginPage.verifyInvalidEmailFormatWarning();
+    }
+
+    @Test(description = "negative Scenario : Logging With Non Registered Email")
+    public void _03verifyLoginIdNotExistError(){
+        loginPage.navigateToLoginPage(testData.getTestData("signInPage"));
+        loginPage.verifyLoginIdNotExistError("email@email2.com");
+    }
+
+    @Test(description = "positive Scenario : Logging With Registered Email")
+    public void _04verifyLoginWithValidEmail(){
+        loginPage.navigateToLoginPage(testData.getTestData("signInPage"));
+        loginPage.verifyLoginWithValidUser("email@email.com");
+    }
+
+
+    @Test(description = "Negative Scnario : Entering Invalid Voucher Code ")
+
+    public void _05verifyRedeemingWithWrongVoucherCode(){
+      voucherPage.navigateToVoucherPage(testData.getTestData("voucherPage"));
+      voucherPage.verifyInvalidVoucher("122023");
+    }
 
 
 

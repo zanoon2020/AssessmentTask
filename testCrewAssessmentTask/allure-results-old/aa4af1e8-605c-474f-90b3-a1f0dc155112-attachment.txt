@@ -1,0 +1,23 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                      Test Method: 'pomDesignPatternTests.Tests.verifyLoginWithValidEmail'                                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/testData.json"". @19-12-2023 23:21:38.0727 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/testData.json"". @19-12-2023 23:21:38.0728 PM
+[ReportManager] Target URL: "https://subscribe.stctv.com/en/user-status/" @19-12-2023 23:21:45.0158 PM
+[ReportManager] Initial URL: "about:blank" @19-12-2023 23:21:45.0245 PM
+[ReportManager] Navigate to url "https://subscribe.stctv.com/en/user-status/". @19-12-2023 23:21:55.0782 PM
+[ReportManager] text cleared Using Native Clear @19-12-2023 23:21:56.0642 PM
+[ReportManager] Type "email@email.com" into "By.name: username". @19-12-2023 23:21:57.0092 PM
+[ReportManager] Moved the mouse to the middle of the element. @19-12-2023 23:21:57.0589 PM
+[ReportManager] Click "Next". @19-12-2023 23:21:57.0812 PM
+[ReportManager] Get text "Please enter the sign-in code we have sent you on this mobile number.966XXXXX8777" from "By.xpath: //div[@class='sign-in-DescMain']". @19-12-2023 23:21:59.0049 PM
+[ReportManager] Expected "Please enter the sign-in code", and actual "Please enter the sign-in code we have sent you on this mobile number.966XXXXX8777" @19-12-2023 23:21:59.0051 PM
+[ReportManager] Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'Please enter the sign-in code' for the 'text' attribute, element locator 'By.xpath: //div[@class='sign-in-DescMain']'" and Actual "Please enter the sign-in code we have sent you on this mobile number.966XXXXX8777". Comparison Type "CONTAINS". Validation Type "POSITIVE". @19-12-2023 23:22:04.0546 PM
+[ReportManager] Assertion Passed: The Element located by "By.xpath: //div[@class='sign-in-DescMain']" text contains "Please enter the sign-in code". @19-12-2023 23:22:04.0549 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1703020920812_verifyLoginWithValidEmail_ValidateElementAttribute_passed' @19-12-2023 23:22:04.0655 PM
+[ReportManager] Assertion "ValidateElementExists" PASSED. Expected "Element Should Exist, locator 'By.xpath: //div[@class='otp-div']'" and Actual "Element Exists". Comparison Type "EQUALS". Validation Type "POSITIVE". @19-12-2023 23:22:06.0086 PM
+[ReportManager] Assertion Passed: The Element located by "By.xpath: //div[@class='otp-div']" exists. @19-12-2023 23:22:06.0088 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1703020925761_verifyLoginWithValidEmail_ValidateElementExists_passed' @19-12-2023 23:22:06.0100 PM

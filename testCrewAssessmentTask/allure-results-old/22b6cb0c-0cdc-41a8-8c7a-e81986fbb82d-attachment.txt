@@ -1,0 +1,94 @@
+[INFO ] 2023-12-19 22:17:42.387 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    Powered by [1mSHAFT v.7.4.20231211[22m                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-19 22:17:42.446 [main] ReportManager - Checking for engine updates...
+[INFO ] 2023-12-19 22:17:42.507 [main] ReportManager - Engine Update check done for the day. 👍
+[INFO ] 2023-12-19 22:17:45.987 [main] ReportManager - Loaded OpenCV "opencv_java481".
+[INFO ] 2023-12-19 22:17:45.989 [main] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2023-12-19 22:17:46.424 [main] ReportManager - Initializing Extent Reporting Environment...
+[INFO ] 2023-12-19 22:17:48.576 [main] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2023-12-19 22:17:48.624 [main] ReportManager - TestNG run detected...
+[INFO ] 2023-12-19 22:17:49.396 [main] Utils - [TestNG] Running:
+  C:\Users\Ahmed Zanoon\AppData\Local\JetBrains\IdeaIC2023.2\temp-testng-customsuite.xml
+
+[INFO ] 2023-12-19 22:17:49.511 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-19 22:17:49.986 [main] ReportManager - Initializing Important Links...
+[INFO ] 2023-12-19 22:17:50.009 [main] ReportManager - Initializing Properties...
+[INFO ] 2023-12-19 22:17:50.391 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of before class configuration method                                             
+                                                    'pomDesignPatternTests.Tests.BeforeClass'                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-19 22:17:50.430 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2023-12-19 22:17:50.561 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {log: {level: warn}, profile: UEsDBBQACAgIADmyk1cAAAAAAAA...}, pageLoadStrategy: normal, timeouts: {pageLoad: 60000, script: 60000}, webSocketUrl: true}
+[INFO ] 2023-12-19 22:17:50.565 [main] ReportManager - Attempting to run locally on: "windows | Firefox".
+[INFO ] 2023-12-19 22:17:50.567 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[INFO ] 2023-12-19 22:18:03.398 [main] ReportManager - Successfully Opened: "windows | Firefox".
+[INFO ] 2023-12-19 22:18:03.599 [main] ReportManager - Initial window size: (1291, 747)
+[INFO ] 2023-12-19 22:18:03.934 [main] ReportManager - Window size after SWD Maximize: (1550, 838)
+[INFO ] 2023-12-19 22:18:03.964 [main] ReportManager - Maximize window "New screen size is now: (1550, 838)".
+[INFO ] 2023-12-19 22:18:03.985 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "testData.json"".
+[INFO ] 2023-12-19 22:18:03.988 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/testData.json"".
+[INFO ] 2023-12-19 22:18:03.990 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/testData.json"".
+[INFO ] 2023-12-19 22:18:04.000 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2023-12-19 22:18:04.038 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                            Starting execution of before method configuration method                                            
+                                                   'pomDesignPatternTests.Tests.BeforeMethod'                                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-19 22:18:04.553 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                 Test Method: 'pomDesignPatternTests.Tests.verifyInvalidWrongEmailErrorMessage'                                 
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-19 22:18:04.599 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/testData.json"".
+[INFO ] 2023-12-19 22:18:04.601 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/testData.json"".
+[INFO ] 2023-12-19 22:18:10.306 [main] ReportManager - Target URL: "https://subscribe.stctv.com/sa-en"
+[INFO ] 2023-12-19 22:18:10.408 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2023-12-19 22:19:21.196 [main] ReportManager - Navigate to url "https://subscribe.stctv.com/sa-en".
+[INFO ] 2023-12-19 22:19:22.173 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-12-19 22:19:42.547 [main] ReportManager - Click "Sign in".
+[INFO ] 2023-12-19 22:19:44.441 [main] ReportManager - Get current url "https://subscribe.stctv.com/en/user-status/".
+[INFO ] 2023-12-19 22:19:44.446 [main] ReportManager - Expected "https://subscribe.stctv.com/en/user-status/", and actual "https://subscribe.stctv.com/en/user-status/"
+[INFO ] 2023-12-19 22:19:51.142 [main] ReportManager - Assertion "ValidateBrowserAttribute" PASSED. Expected "Value Should be 'https://subscribe.stctv.com/en/user-status/' for the 'currenturl' attribute" and Actual "https://subscribe.stctv.com/en/user-status/". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-12-19 22:19:51.233 [main] ReportManager - Successfully created attachment 'Screenshot - 1703017185182_verifyInvalidWrongEmailErrorMessage_ValidateBrowserAttribute_passed'
+[INFO ] 2023-12-19 22:19:51.823 [main] ReportManager - text cleared Using Native Clear
+[INFO ] 2023-12-19 22:19:52.170 [main] ReportManager - Type "invalid" into "By.name: username".
+[INFO ] 2023-12-19 22:19:52.825 [main] ReportManager - Get text "Please enter a correct email address format" from "By.xpath: //span[@class='error-msg']".
+[INFO ] 2023-12-19 22:19:52.826 [main] ReportManager - Expected "Please enter a correct email address format", and actual "Please enter a correct email address format"
+[INFO ] 2023-12-19 22:19:55.105 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'Please enter a correct email address format' for the 'text' attribute, element locator 'By.xpath: //span[@class='error-msg']'" and Actual "Please enter a correct email address format". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-12-19 22:19:55.143 [main] ReportManager - Successfully created attachment 'Screenshot - 1703017194327_verifyInvalidWrongEmailErrorMessage_ValidateElementAttribute_passed'
+[INFO ] 2023-12-19 22:19:55.165 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: verifyInvalidWrongEmailErrorMessage'
+[INFO ] 2023-12-19 22:19:55.166 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                      Finished Execution of Test Method: 'pomDesignPatternTests.Tests.verifyInvalidWrongEmailErrorMessage'                      
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-19 22:19:55.256 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of after method configuration method                                             
+                                                    'pomDesignPatternTests.Tests.afterMethod'                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-19 22:20:00.754 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2023-12-19 22:20:00.761 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: afterMethod'
+[INFO ] 2023-12-19 22:20:00.766 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine teardown configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTeardown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-19 22:20:00.768 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'
+[INFO ] 2023-12-19 22:20:00.770 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/logs/log4j.log"".
+[INFO ] 2023-12-19 22:20:00.771 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "target/logs/log4j.log"".

@@ -1,0 +1,25 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '4 out of 5' test cases in the current suite                                        
+                                     Test Method: 'pomDesignPatternTests.Tests._04verifyLoginWithValidEmail'                                     
+                                      Test Description: 'positive Scenario : Logging With Registered Email'                                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/testData.json"". @20-12-2023 00:27:45.0234 AM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/testData.json"". @20-12-2023 00:27:45.0236 AM
+[ReportManager] Target URL: "https://subscribe.stctv.com/en/user-status/" @20-12-2023 00:27:45.0523 AM
+[ReportManager] Initial URL: "about:blank" @20-12-2023 00:27:45.0579 AM
+[ReportManager] Navigate to url "https://subscribe.stctv.com/en/user-status/". @20-12-2023 00:27:52.0621 AM
+[ReportManager] text cleared Using Native Clear @20-12-2023 00:27:53.0088 AM
+[ReportManager] Type "email@email.com" into "By.name: username". @20-12-2023 00:27:53.0431 AM
+[ReportManager] Moved the mouse to the middle of the element. @20-12-2023 00:27:53.0831 AM
+[ReportManager] Click "Next". @20-12-2023 00:27:54.0016 AM
+[ReportManager] Get text "Please enter the sign-in code we have sent you on this mobile number.966XXXXX8777" from "By.xpath: //div[@class='sign-in-DescMain']". @20-12-2023 00:27:54.0788 AM
+[ReportManager] Expected "Please enter the sign-in code", and actual "Please enter the sign-in code we have sent you on this mobile number.966XXXXX8777" @20-12-2023 00:27:54.0788 AM
+[ReportManager] Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'Please enter the sign-in code' for the 'text' attribute, element locator 'By.xpath: //div[@class='sign-in-DescMain']'" and Actual "Please enter the sign-in code we have sent you on this mobile number.966XXXXX8777". Comparison Type "CONTAINS". Validation Type "POSITIVE". @20-12-2023 00:27:55.0410 AM
+[ReportManager] Assertion Passed: The Element located by "By.xpath: //div[@class='sign-in-DescMain']" text contains "Please enter the sign-in code". @20-12-2023 00:27:55.0410 AM
+[ReportManager] Successfully created attachment 'Screenshot - 1703024875276__04verifyLoginWithValidEmail_ValidateElementAttribute_passed' @20-12-2023 00:27:55.0413 AM
+[ReportManager] Assertion "ValidateElementExists" PASSED. Expected "Element Should Exist, locator 'By.xpath: //div[@class='otp-div']'" and Actual "Element Exists". Comparison Type "EQUALS". Validation Type "POSITIVE". @20-12-2023 00:27:56.0101 AM
+[ReportManager] Assertion Passed: The Element located by "By.xpath: //div[@class='otp-div']" exists. @20-12-2023 00:27:56.0101 AM
+[ReportManager] Successfully created attachment 'Screenshot - 1703024875963__04verifyLoginWithValidEmail_ValidateElementExists_passed' @20-12-2023 00:27:56.0104 AM
+[ReportManager] Successfully created attachment 'SHAFT Engine Logs - Current Method log: BeforeMethod' @20-12-2023 00:27:56.0107 AM

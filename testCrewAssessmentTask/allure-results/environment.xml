@@ -42,7 +42,7 @@
   </parameter>
   <parameter>
     <key>sun.java.command</key>
-    <value>com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -socket55230 @w@C:\Users\AHMEDZ~1\AppData\Local\Temp\idea_working_dirs_testng2.tmp -temp C:\Users\AHMEDZ~1\AppData\Local\Temp\idea_testng2.tmp</value>
+    <value>com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -socket62755 @w@C:\Users\AHMEDZ~1\AppData\Local\Temp\idea_working_dirs_testng.tmp -temp C:\Users\AHMEDZ~1\AppData\Local\Temp\idea_testng.tmp</value>
   </parameter>
   <parameter>
     <key>jdk.debug</key>
@@ -233,6 +233,10 @@
     <value>false</value>
   </parameter>
   <parameter>
+    <key>forceCheckNavigationWasSuccessful</key>
+    <value>true</value>
+  </parameter>
+  <parameter>
     <key>os.arch</key>
     <value>amd64</value>
   </parameter>
@@ -278,7 +282,7 @@
   </parameter>
   <parameter>
     <key>targetBrowserName</key>
-    <value>firefox</value>
+    <value>MicrosoftEdge</value>
   </parameter>
   <parameter>
     <key>sun.stderr.encoding</key>
@@ -303,6 +307,10 @@
   <parameter>
     <key>user.name</key>
     <value>Ahmed</value>
+  </parameter>
+  <parameter>
+    <key>browserNavigationTimeout</key>
+    <value>120</value>
   </parameter>
   <parameter>
     <key>java.class.path</key>

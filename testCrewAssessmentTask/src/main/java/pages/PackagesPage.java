@@ -24,8 +24,7 @@ public class PackagesPage {
     private By kuwaitButton = By.xpath("//div[@id='country-selct']//a[@id='kw']");
 
 
-
-     @Step("Navigation To Supscription Packages Page")
+     @Step("Navigation To Subscription Packages Page")
     public void  navigateTo (String url) {
         driver.browser().navigateToURL(url);
     }
@@ -51,5 +50,6 @@ public class PackagesPage {
         driver.element().click(changeCountryButton);
         driver.element().click(kuwaitButton);
     }
+
 
 }
