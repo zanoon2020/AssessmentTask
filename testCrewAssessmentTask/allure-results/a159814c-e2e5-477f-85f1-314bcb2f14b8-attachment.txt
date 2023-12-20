@@ -1,0 +1,28 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '5 out of 7' test cases in the current suite                                        
+                                    Test Method: 'pomDesignPatternTests.Tests._05verifyLoginIdNotExistError'                                    
+                                    Test Description: 'negative Scenario : Logging With Non Registered Email'                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/testData.json"". @20-12-2023 14:36:01.0320 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/testData.json"". @20-12-2023 14:36:01.0320 PM
+[ReportManager] Target URL: "https://subscribe.stctv.com/en/user-status/" @20-12-2023 14:36:01.0340 PM
+[ReportManager] Initial URL: "about:blank" @20-12-2023 14:36:01.0367 PM
+[ReportManager] Navigate to url "https://subscribe.stctv.com/en/user-status/". @20-12-2023 14:36:05.0496 PM
+[ReportManager] text cleared Using Native Clear @20-12-2023 14:36:05.0617 PM
+[ReportManager] Type "email@email2.com" into "By.name: username". @20-12-2023 14:36:05.0763 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-12-2023 14:36:06.0585 PM
+[ReportManager] Click "Next". @20-12-2023 14:36:06.0657 PM
+[ReportManager] Get text "Login ID does not exist. Please enter a valid Email Address or enter your mobile number starting with country code without 00 (e.g: 966XXXXXXX, 965XXXXXXXXX, 973XXXXXXXXX).
+
+Note: If you are STC Home customer, please login with your landline number starting with region code without 0 (e.g: 11444XXXX)" from "By.xpath: //span[@class='error-msg-top']". @20-12-2023 14:36:07.0081 PM
+[ReportManager] Expected "Login ID does not exist.", and actual "Login ID does not exist. Please enter a valid Email Address or enter your mobile number starting with country code without 00 (e.g: 966XXXXXXX, 965XXXXXXXXX, 973XXXXXXXXX).
+
+Note: If you are STC Home customer, please login with your landline number starting with region code without 0 (e.g: 11444XXXX)" @20-12-2023 14:36:07.0081 PM
+[ReportManager] Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'Login ID does not exist.' for the 'text' attribute, element locator 'By.xpath: //span[@class='error-msg-top']'" and Actual "Login ID does not exist. Please enter a valid Email Address or enter your mobile number starting with country code without 00 (e.g: 966XXXXXXX, 965XXXXXXXXX, 973XXXXXXXXX).
+
+Note: If you are STC Home customer, please login with your landline number starting with region code without 0 (e.g: 11444XXXX)". Comparison Type "CONTAINS". Validation Type "POSITIVE". @20-12-2023 14:36:07.0497 PM
+[ReportManager] Assertion Passed: The Element located by "By.xpath: //span[@class='error-msg-top']" text contains "Login ID does not exist.". @20-12-2023 14:36:07.0498 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1703075767373__05verifyLoginIdNotExistError_ValidateElementAttribute_passed' @20-12-2023 14:36:07.0502 PM
+[ReportManager] Successfully created attachment 'SHAFT Engine Logs - Current Method log: BeforeMethod' @20-12-2023 14:36:07.0505 PM

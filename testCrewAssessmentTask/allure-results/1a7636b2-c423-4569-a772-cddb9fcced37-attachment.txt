@@ -1,0 +1,62 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '2 out of 7' test cases in the current suite                                        
+                                Test Method: 'pomDesignPatternTests.Tests._02verifyPackageTypeAndPriceForBahrain'                                
+                                  Test Description: 'Verify Subscription Packages Type And Price For Bahrain '                                  
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/testData.json"". @20-12-2023 14:34:50.0277 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/testData.json"". @20-12-2023 14:34:50.0278 PM
+[ReportManager] Target URL: "https://subscribe.stctv.com/sa-en" @20-12-2023 14:34:50.0301 PM
+[ReportManager] Initial URL: "about:blank" @20-12-2023 14:34:55.0035 PM
+[ReportManager] Navigate to url "https://subscribe.stctv.com/sa-en". @20-12-2023 14:35:01.0139 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-12-2023 14:35:01.0348 PM
+[ReportManager] Click "sa KSA". @20-12-2023 14:35:01.0450 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-12-2023 14:35:01.0844 PM
+[ReportManager] Click "bh Bahrain". @20-12-2023 14:35:01.0961 PM
+[ReportManager] Get text "LITE" from "By.id: name-lite". @20-12-2023 14:35:05.0249 PM
+[ReportManager] Expected "LITE", and actual "LITE" @20-12-2023 14:35:05.0249 PM
+[ReportManager] Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'LITE' for the 'text' attribute, element locator 'By.id: name-lite'" and Actual "LITE". Comparison Type "EQUALS". Validation Type "POSITIVE". @20-12-2023 14:35:05.0757 PM
+[ReportManager] Assertion Passed: The Element located by "By.id: name-lite" text is equal to "LITE". @20-12-2023 14:35:05.0758 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1703075705654__02verifyPackageTypeAndPriceForBahrain_ValidateElementAttribute_passed' @20-12-2023 14:35:05.0857 PM
+[ReportManager] Get text "2" from "By.xpath: //*[@id='currency-lite']//b". @20-12-2023 14:35:05.0972 PM
+[ReportManager] Expected "2", and actual "2" @20-12-2023 14:35:05.0972 PM
+[ReportManager] Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be '2' for the 'text' attribute, element locator 'By.xpath: //*[@id='currency-lite']//b'" and Actual "2". Comparison Type "EQUALS". Validation Type "POSITIVE". @20-12-2023 14:35:06.0452 PM
+[ReportManager] Assertion Passed: The Element located by "By.xpath: //*[@id='currency-lite']//b" text is equal to "2". @20-12-2023 14:35:06.0453 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1703075706336__02verifyPackageTypeAndPriceForBahrain_ValidateElementAttribute_passed' @20-12-2023 14:35:06.0458 PM
+[ReportManager] Get text "BHD/month" from "By.xpath: //*[@id='currency-lite']//i". @20-12-2023 14:35:06.0521 PM
+[ReportManager] Expected "BHD", and actual "BHD/month" @20-12-2023 14:35:06.0521 PM
+[ReportManager] Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'BHD' for the 'text' attribute, element locator 'By.xpath: //*[@id='currency-lite']//i'" and Actual "BHD/month". Comparison Type "CONTAINS". Validation Type "POSITIVE". @20-12-2023 14:35:06.0950 PM
+[ReportManager] Assertion Passed: The Element located by "By.xpath: //*[@id='currency-lite']//i" text contains "BHD". @20-12-2023 14:35:06.0950 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1703075706863__02verifyPackageTypeAndPriceForBahrain_ValidateElementAttribute_passed' @20-12-2023 14:35:06.0953 PM
+[ReportManager] Get text "CLASSIC" from "By.id: name-classic". @20-12-2023 14:35:07.0009 PM
+[ReportManager] Expected "CLASSIC", and actual "CLASSIC" @20-12-2023 14:35:07.0009 PM
+[ReportManager] Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'CLASSIC' for the 'text' attribute, element locator 'By.id: name-classic'" and Actual "CLASSIC". Comparison Type "EQUALS". Validation Type "POSITIVE". @20-12-2023 14:35:07.0406 PM
+[ReportManager] Assertion Passed: The Element located by "By.id: name-classic" text is equal to "CLASSIC". @20-12-2023 14:35:07.0407 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1703075707304__02verifyPackageTypeAndPriceForBahrain_ValidateElementAttribute_passed' @20-12-2023 14:35:07.0410 PM
+[ReportManager] Get text "3" from "By.xpath: //*[@id='currency-classic']//b". @20-12-2023 14:35:07.0460 PM
+[ReportManager] Expected "3", and actual "3" @20-12-2023 14:35:07.0461 PM
+[ReportManager] Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be '3' for the 'text' attribute, element locator 'By.xpath: //*[@id='currency-classic']//b'" and Actual "3". Comparison Type "EQUALS". Validation Type "POSITIVE". @20-12-2023 14:35:07.0833 PM
+[ReportManager] Assertion Passed: The Element located by "By.xpath: //*[@id='currency-classic']//b" text is equal to "3". @20-12-2023 14:35:07.0834 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1703075707743__02verifyPackageTypeAndPriceForBahrain_ValidateElementAttribute_passed' @20-12-2023 14:35:07.0848 PM
+[ReportManager] Get text "BHD/month" from "By.xpath: //*[@id='currency-classic']//i". @20-12-2023 14:35:07.0901 PM
+[ReportManager] Expected "BHD", and actual "BHD/month" @20-12-2023 14:35:07.0902 PM
+[ReportManager] Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'BHD' for the 'text' attribute, element locator 'By.xpath: //*[@id='currency-classic']//i'" and Actual "BHD/month". Comparison Type "CONTAINS". Validation Type "POSITIVE". @20-12-2023 14:35:08.0470 PM
+[ReportManager] Assertion Passed: The Element located by "By.xpath: //*[@id='currency-classic']//i" text contains "BHD". @20-12-2023 14:35:08.0471 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1703075708326__02verifyPackageTypeAndPriceForBahrain_ValidateElementAttribute_passed' @20-12-2023 14:35:08.0474 PM
+[ReportManager] Get text "PREMIUM" from "By.id: name-premium". @20-12-2023 14:35:08.0532 PM
+[ReportManager] Expected "PREMIUM", and actual "PREMIUM" @20-12-2023 14:35:08.0532 PM
+[ReportManager] Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'PREMIUM' for the 'text' attribute, element locator 'By.id: name-premium'" and Actual "PREMIUM". Comparison Type "EQUALS". Validation Type "POSITIVE". @20-12-2023 14:35:09.0079 PM
+[ReportManager] Assertion Passed: The Element located by "By.id: name-premium" text is equal to "PREMIUM". @20-12-2023 14:35:09.0079 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1703075708839__02verifyPackageTypeAndPriceForBahrain_ValidateElementAttribute_passed' @20-12-2023 14:35:09.0083 PM
+[ReportManager] Get text "6" from "By.xpath: //*[@id='currency-premium']//b". @20-12-2023 14:35:09.0163 PM
+[ReportManager] Expected "6", and actual "6" @20-12-2023 14:35:09.0163 PM
+[ReportManager] Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be '6' for the 'text' attribute, element locator 'By.xpath: //*[@id='currency-premium']//b'" and Actual "6". Comparison Type "EQUALS". Validation Type "POSITIVE". @20-12-2023 14:35:09.0700 PM
+[ReportManager] Assertion Passed: The Element located by "By.xpath: //*[@id='currency-premium']//b" text is equal to "6". @20-12-2023 14:35:09.0701 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1703075709560__02verifyPackageTypeAndPriceForBahrain_ValidateElementAttribute_passed' @20-12-2023 14:35:09.0703 PM
+[ReportManager] Get text "BHD/month" from "By.xpath: //*[@id='currency-premium']//i". @20-12-2023 14:35:09.0757 PM
+[ReportManager] Expected "BHD", and actual "BHD/month" @20-12-2023 14:35:09.0758 PM
+[ReportManager] Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'BHD' for the 'text' attribute, element locator 'By.xpath: //*[@id='currency-premium']//i'" and Actual "BHD/month". Comparison Type "CONTAINS". Validation Type "POSITIVE". @20-12-2023 14:35:10.0220 PM
+[ReportManager] Assertion Passed: The Element located by "By.xpath: //*[@id='currency-premium']//i" text contains "BHD". @20-12-2023 14:35:10.0221 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1703075710074__02verifyPackageTypeAndPriceForBahrain_ValidateElementAttribute_passed' @20-12-2023 14:35:10.0224 PM
+[ReportManager] Successfully created attachment 'SHAFT Engine Logs - Current Method log: BeforeMethod' @20-12-2023 14:35:10.0226 PM

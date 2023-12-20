@@ -1,0 +1,478 @@
+[INFO ] 2023-12-20 14:34:07.210 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    Powered by [1mSHAFT v.7.4.20231211[22m                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-20 14:34:07.225 [main] ReportManager - Checking for engine updates...
+[INFO ] 2023-12-20 14:34:07.267 [main] ReportManager - Engine Update check done for the day. 👍
+[INFO ] 2023-12-20 14:34:08.562 [main] ReportManager - Loaded OpenCV "opencv_java481".
+[INFO ] 2023-12-20 14:34:08.563 [main] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2023-12-20 14:34:08.875 [main] ReportManager - Initializing Extent Reporting Environment...
+[INFO ] 2023-12-20 14:34:09.415 [main] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2023-12-20 14:34:09.444 [main] ReportManager - TestNG run detected...
+[INFO ] 2023-12-20 14:34:09.714 [main] Utils - [TestNG] Running:
+  C:\Users\Ahmed Zanoon\AppData\Local\JetBrains\IdeaIC2023.2\temp-testng-customsuite.xml
+
+[INFO ] 2023-12-20 14:34:09.752 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-20 14:34:09.896 [main] ReportManager - Initializing Important Links...
+[INFO ] 2023-12-20 14:34:09.903 [main] ReportManager - Initializing Properties...
+[INFO ] 2023-12-20 14:34:10.074 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of before class configuration method                                             
+                                                    'pomDesignPatternTests.Tests.BeforeClass'                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-20 14:34:10.082 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "testData.json"".
+[INFO ] 2023-12-20 14:34:10.082 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/testData.json"".
+[INFO ] 2023-12-20 14:34:10.083 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/testData.json"".
+[INFO ] 2023-12-20 14:34:10.086 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2023-12-20 14:34:10.099 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                            Starting execution of before method configuration method                                            
+                                                   'pomDesignPatternTests.Tests.BeforeMethod'                                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-20 14:34:10.114 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2023-12-20 14:34:10.136 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: MicrosoftEdge, ms:edgeOptions: {args: [--start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: D:\ShaftHQ\AssessmentTask\t..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2023-12-20 14:34:10.137 [main] ReportManager - Attempting to run locally on: "windows | Microsoft edge".
+[INFO ] 2023-12-20 14:34:10.138 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[INFO ] 2023-12-20 14:34:16.719 [main] ReportManager - Successfully Opened: "windows | Microsoft edge".
+[INFO ] 2023-12-20 14:34:16.912 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 7' test cases in the current suite                                        
+                             Test Method: 'pomDesignPatternTests.Tests._01verifyPackageTypeAndPriceForSaudiaArabia'                             
+                               Test Description: 'Verify Subscription Packages's Type And Price For Saudi Arabia '                               
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-20 14:34:16.922 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/testData.json"".
+[INFO ] 2023-12-20 14:34:16.923 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/testData.json"".
+[INFO ] 2023-12-20 14:34:19.000 [main] ReportManager - Target URL: "https://subscribe.stctv.com/sa-en"
+[INFO ] 2023-12-20 14:34:19.103 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2023-12-20 14:34:26.207 [main] ReportManager - Navigate to url "https://subscribe.stctv.com/sa-en".
+[INFO ] 2023-12-20 14:34:29.434 [main] ReportManager - Assertion "ValidateElementExists" PASSED. Expected "Element Should Exist, locator 'By.xpath: //div[@id='country']//img[@alt='sa']'" and Actual "Element Exists". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-12-20 14:34:29.484 [main] ReportManager - Successfully created attachment 'Screenshot - 1703075667661__01verifyPackageTypeAndPriceForSaudiaArabia_ValidateElementExists_passed'
+[INFO ] 2023-12-20 14:34:30.121 [main] ReportManager - Get text "LITE" from "By.id: name-lite".
+[INFO ] 2023-12-20 14:34:30.122 [main] ReportManager - Expected "LITE", and actual "LITE"
+[INFO ] 2023-12-20 14:34:31.200 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'LITE' for the 'text' attribute, element locator 'By.id: name-lite'" and Actual "LITE". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-12-20 14:34:31.246 [main] ReportManager - Successfully created attachment 'Screenshot - 1703075670636__01verifyPackageTypeAndPriceForSaudiaArabia_ValidateElementAttribute_passed'
+[INFO ] 2023-12-20 14:34:31.317 [main] ReportManager - Get text "15" from "By.xpath: //*[@id='currency-lite']//b".
+[INFO ] 2023-12-20 14:34:31.317 [main] ReportManager - Expected "15", and actual "15"
+[INFO ] 2023-12-20 14:34:32.137 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be '15' for the 'text' attribute, element locator 'By.xpath: //*[@id='currency-lite']//b'" and Actual "15". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-12-20 14:34:32.143 [main] ReportManager - Successfully created attachment 'Screenshot - 1703075671889__01verifyPackageTypeAndPriceForSaudiaArabia_ValidateElementAttribute_passed'
+[INFO ] 2023-12-20 14:34:32.227 [main] ReportManager - Get text "SAR/month" from "By.xpath: //*[@id='currency-lite']//i".
+[INFO ] 2023-12-20 14:34:32.227 [main] ReportManager - Expected "SAR", and actual "SAR/month"
+[INFO ] 2023-12-20 14:34:32.770 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'SAR' for the 'text' attribute, element locator 'By.xpath: //*[@id='currency-lite']//i'" and Actual "SAR/month". Comparison Type "CONTAINS". Validation Type "POSITIVE".
+[INFO ] 2023-12-20 14:34:32.775 [main] ReportManager - Successfully created attachment 'Screenshot - 1703075672633__01verifyPackageTypeAndPriceForSaudiaArabia_ValidateElementAttribute_passed'
+[INFO ] 2023-12-20 14:34:32.837 [main] ReportManager - Get text "CLASSIC" from "By.id: name-classic".
+[INFO ] 2023-12-20 14:34:32.838 [main] ReportManager - Expected "CLASSIC", and actual "CLASSIC"
+[INFO ] 2023-12-20 14:34:33.285 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'CLASSIC' for the 'text' attribute, element locator 'By.id: name-classic'" and Actual "CLASSIC". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-12-20 14:34:33.288 [main] ReportManager - Successfully created attachment 'Screenshot - 1703075673163__01verifyPackageTypeAndPriceForSaudiaArabia_ValidateElementAttribute_passed'
+[INFO ] 2023-12-20 14:34:33.353 [main] ReportManager - Get text "25" from "By.xpath: //*[@id='currency-classic']//b".
+[INFO ] 2023-12-20 14:34:33.354 [main] ReportManager - Expected "25", and actual "25"
+[INFO ] 2023-12-20 14:34:33.820 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be '25' for the 'text' attribute, element locator 'By.xpath: //*[@id='currency-classic']//b'" and Actual "25". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-12-20 14:34:33.824 [main] ReportManager - Successfully created attachment 'Screenshot - 1703075673694__01verifyPackageTypeAndPriceForSaudiaArabia_ValidateElementAttribute_passed'
+[INFO ] 2023-12-20 14:34:33.899 [main] ReportManager - Get text "SAR/month" from "By.xpath: //*[@id='currency-classic']//i".
+[INFO ] 2023-12-20 14:34:33.900 [main] ReportManager - Expected "SAR", and actual "SAR/month"
+[INFO ] 2023-12-20 14:34:34.424 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'SAR' for the 'text' attribute, element locator 'By.xpath: //*[@id='currency-classic']//i'" and Actual "SAR/month". Comparison Type "CONTAINS". Validation Type "POSITIVE".
+[INFO ] 2023-12-20 14:34:34.428 [main] ReportManager - Successfully created attachment 'Screenshot - 1703075674317__01verifyPackageTypeAndPriceForSaudiaArabia_ValidateElementAttribute_passed'
+[INFO ] 2023-12-20 14:34:34.490 [main] ReportManager - Get text "PREMIUM" from "By.id: name-premium".
+[INFO ] 2023-12-20 14:34:34.490 [main] ReportManager - Expected "PREMIUM", and actual "PREMIUM"
+[INFO ] 2023-12-20 14:34:34.992 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'PREMIUM' for the 'text' attribute, element locator 'By.id: name-premium'" and Actual "PREMIUM". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-12-20 14:34:34.996 [main] ReportManager - Successfully created attachment 'Screenshot - 1703075674830__01verifyPackageTypeAndPriceForSaudiaArabia_ValidateElementAttribute_passed'
+[INFO ] 2023-12-20 14:34:35.048 [main] ReportManager - Get text "60" from "By.xpath: //*[@id='currency-premium']//b".
+[INFO ] 2023-12-20 14:34:35.048 [main] ReportManager - Expected "60", and actual "60"
+[INFO ] 2023-12-20 14:34:35.505 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be '60' for the 'text' attribute, element locator 'By.xpath: //*[@id='currency-premium']//b'" and Actual "60". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-12-20 14:34:35.510 [main] ReportManager - Successfully created attachment 'Screenshot - 1703075675375__01verifyPackageTypeAndPriceForSaudiaArabia_ValidateElementAttribute_passed'
+[INFO ] 2023-12-20 14:34:35.592 [main] ReportManager - Get text "SAR/month" from "By.xpath: //*[@id='currency-premium']//i".
+[INFO ] 2023-12-20 14:34:35.593 [main] ReportManager - Expected "SAR", and actual "SAR/month"
+[INFO ] 2023-12-20 14:34:36.059 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'SAR' for the 'text' attribute, element locator 'By.xpath: //*[@id='currency-premium']//i'" and Actual "SAR/month". Comparison Type "CONTAINS". Validation Type "POSITIVE".
+[INFO ] 2023-12-20 14:34:36.062 [main] ReportManager - Successfully created attachment 'Screenshot - 1703075675936__01verifyPackageTypeAndPriceForSaudiaArabia_ValidateElementAttribute_passed'
+[INFO ] 2023-12-20 14:34:36.068 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: BeforeMethod'
+[INFO ] 2023-12-20 14:34:36.070 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: _01verifyPackageTypeAndPriceForSaudiaArabia'
+[INFO ] 2023-12-20 14:34:36.070 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                  Finished Execution of Test Method: 'pomDesignPatternTests.Tests._01verifyPackageTypeAndPriceForSaudiaArabia'                  
+                               Test Description: 'Verify Subscription Packages's Type And Price For Saudi Arabia '                               
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-20 14:34:36.097 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of after method configuration method                                             
+                                                    'pomDesignPatternTests.Tests.afterMethod'                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-20 14:34:39.141 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2023-12-20 14:34:39.158 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: afterMethod'
+[INFO ] 2023-12-20 14:34:39.162 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                            Starting execution of before method configuration method                                            
+                                                   'pomDesignPatternTests.Tests.BeforeMethod'                                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-20 14:34:39.166 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2023-12-20 14:34:39.169 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: MicrosoftEdge, ms:edgeOptions: {args: [--start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: D:\ShaftHQ\AssessmentTask\t..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2023-12-20 14:34:39.170 [main] ReportManager - Attempting to run locally on: "windows | Microsoft edge".
+[INFO ] 2023-12-20 14:34:39.171 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[INFO ] 2023-12-20 14:34:50.255 [main] ReportManager - Successfully Opened: "windows | Microsoft edge".
+[INFO ] 2023-12-20 14:34:50.276 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '2 out of 7' test cases in the current suite                                        
+                                Test Method: 'pomDesignPatternTests.Tests._02verifyPackageTypeAndPriceForBahrain'                                
+                                  Test Description: 'Verify Subscription Packages Type And Price For Bahrain '                                  
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-20 14:34:50.277 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/testData.json"".
+[INFO ] 2023-12-20 14:34:50.278 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/testData.json"".
+[INFO ] 2023-12-20 14:34:50.301 [main] ReportManager - Target URL: "https://subscribe.stctv.com/sa-en"
+[INFO ] 2023-12-20 14:34:55.035 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2023-12-20 14:35:01.140 [main] ReportManager - Navigate to url "https://subscribe.stctv.com/sa-en".
+[INFO ] 2023-12-20 14:35:01.348 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-12-20 14:35:01.450 [main] ReportManager - Click "sa KSA".
+[INFO ] 2023-12-20 14:35:01.844 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-12-20 14:35:01.961 [main] ReportManager - Click "bh Bahrain".
+[INFO ] 2023-12-20 14:35:05.249 [main] ReportManager - Get text "LITE" from "By.id: name-lite".
+[INFO ] 2023-12-20 14:35:05.249 [main] ReportManager - Expected "LITE", and actual "LITE"
+[INFO ] 2023-12-20 14:35:05.757 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'LITE' for the 'text' attribute, element locator 'By.id: name-lite'" and Actual "LITE". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-12-20 14:35:05.857 [main] ReportManager - Successfully created attachment 'Screenshot - 1703075705654__02verifyPackageTypeAndPriceForBahrain_ValidateElementAttribute_passed'
+[INFO ] 2023-12-20 14:35:05.972 [main] ReportManager - Get text "2" from "By.xpath: //*[@id='currency-lite']//b".
+[INFO ] 2023-12-20 14:35:05.972 [main] ReportManager - Expected "2", and actual "2"
+[INFO ] 2023-12-20 14:35:06.452 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be '2' for the 'text' attribute, element locator 'By.xpath: //*[@id='currency-lite']//b'" and Actual "2". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-12-20 14:35:06.458 [main] ReportManager - Successfully created attachment 'Screenshot - 1703075706336__02verifyPackageTypeAndPriceForBahrain_ValidateElementAttribute_passed'
+[INFO ] 2023-12-20 14:35:06.521 [main] ReportManager - Get text "BHD/month" from "By.xpath: //*[@id='currency-lite']//i".
+[INFO ] 2023-12-20 14:35:06.521 [main] ReportManager - Expected "BHD", and actual "BHD/month"
+[INFO ] 2023-12-20 14:35:06.950 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'BHD' for the 'text' attribute, element locator 'By.xpath: //*[@id='currency-lite']//i'" and Actual "BHD/month". Comparison Type "CONTAINS". Validation Type "POSITIVE".
+[INFO ] 2023-12-20 14:35:06.953 [main] ReportManager - Successfully created attachment 'Screenshot - 1703075706863__02verifyPackageTypeAndPriceForBahrain_ValidateElementAttribute_passed'
+[INFO ] 2023-12-20 14:35:07.009 [main] ReportManager - Get text "CLASSIC" from "By.id: name-classic".
+[INFO ] 2023-12-20 14:35:07.009 [main] ReportManager - Expected "CLASSIC", and actual "CLASSIC"
+[INFO ] 2023-12-20 14:35:07.406 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'CLASSIC' for the 'text' attribute, element locator 'By.id: name-classic'" and Actual "CLASSIC". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-12-20 14:35:07.410 [main] ReportManager - Successfully created attachment 'Screenshot - 1703075707304__02verifyPackageTypeAndPriceForBahrain_ValidateElementAttribute_passed'
+[INFO ] 2023-12-20 14:35:07.461 [main] ReportManager - Get text "3" from "By.xpath: //*[@id='currency-classic']//b".
+[INFO ] 2023-12-20 14:35:07.461 [main] ReportManager - Expected "3", and actual "3"
+[INFO ] 2023-12-20 14:35:07.834 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be '3' for the 'text' attribute, element locator 'By.xpath: //*[@id='currency-classic']//b'" and Actual "3". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-12-20 14:35:07.849 [main] ReportManager - Successfully created attachment 'Screenshot - 1703075707743__02verifyPackageTypeAndPriceForBahrain_ValidateElementAttribute_passed'
+[INFO ] 2023-12-20 14:35:07.902 [main] ReportManager - Get text "BHD/month" from "By.xpath: //*[@id='currency-classic']//i".
+[INFO ] 2023-12-20 14:35:07.902 [main] ReportManager - Expected "BHD", and actual "BHD/month"
+[INFO ] 2023-12-20 14:35:08.470 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'BHD' for the 'text' attribute, element locator 'By.xpath: //*[@id='currency-classic']//i'" and Actual "BHD/month". Comparison Type "CONTAINS". Validation Type "POSITIVE".
+[INFO ] 2023-12-20 14:35:08.474 [main] ReportManager - Successfully created attachment 'Screenshot - 1703075708326__02verifyPackageTypeAndPriceForBahrain_ValidateElementAttribute_passed'
+[INFO ] 2023-12-20 14:35:08.532 [main] ReportManager - Get text "PREMIUM" from "By.id: name-premium".
+[INFO ] 2023-12-20 14:35:08.532 [main] ReportManager - Expected "PREMIUM", and actual "PREMIUM"
+[INFO ] 2023-12-20 14:35:09.079 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'PREMIUM' for the 'text' attribute, element locator 'By.id: name-premium'" and Actual "PREMIUM". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-12-20 14:35:09.083 [main] ReportManager - Successfully created attachment 'Screenshot - 1703075708839__02verifyPackageTypeAndPriceForBahrain_ValidateElementAttribute_passed'
+[INFO ] 2023-12-20 14:35:09.163 [main] ReportManager - Get text "6" from "By.xpath: //*[@id='currency-premium']//b".
+[INFO ] 2023-12-20 14:35:09.163 [main] ReportManager - Expected "6", and actual "6"
+[INFO ] 2023-12-20 14:35:09.700 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be '6' for the 'text' attribute, element locator 'By.xpath: //*[@id='currency-premium']//b'" and Actual "6". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-12-20 14:35:09.703 [main] ReportManager - Successfully created attachment 'Screenshot - 1703075709560__02verifyPackageTypeAndPriceForBahrain_ValidateElementAttribute_passed'
+[INFO ] 2023-12-20 14:35:09.758 [main] ReportManager - Get text "BHD/month" from "By.xpath: //*[@id='currency-premium']//i".
+[INFO ] 2023-12-20 14:35:09.758 [main] ReportManager - Expected "BHD", and actual "BHD/month"
+[INFO ] 2023-12-20 14:35:10.220 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'BHD' for the 'text' attribute, element locator 'By.xpath: //*[@id='currency-premium']//i'" and Actual "BHD/month". Comparison Type "CONTAINS". Validation Type "POSITIVE".
+[INFO ] 2023-12-20 14:35:10.224 [main] ReportManager - Successfully created attachment 'Screenshot - 1703075710074__02verifyPackageTypeAndPriceForBahrain_ValidateElementAttribute_passed'
+[INFO ] 2023-12-20 14:35:10.227 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: BeforeMethod'
+[INFO ] 2023-12-20 14:35:10.229 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: _02verifyPackageTypeAndPriceForBahrain'
+[INFO ] 2023-12-20 14:35:10.229 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                     Finished Execution of Test Method: 'pomDesignPatternTests.Tests._02verifyPackageTypeAndPriceForBahrain'                     
+                                  Test Description: 'Verify Subscription Packages Type And Price For Bahrain '                                  
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-20 14:35:10.233 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of after method configuration method                                             
+                                                    'pomDesignPatternTests.Tests.afterMethod'                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-20 14:35:13.206 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2023-12-20 14:35:13.208 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: afterMethod'
+[INFO ] 2023-12-20 14:35:13.209 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                            Starting execution of before method configuration method                                            
+                                                   'pomDesignPatternTests.Tests.BeforeMethod'                                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-20 14:35:13.211 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2023-12-20 14:35:13.212 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: MicrosoftEdge, ms:edgeOptions: {args: [--start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: D:\ShaftHQ\AssessmentTask\t..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2023-12-20 14:35:13.213 [main] ReportManager - Attempting to run locally on: "windows | Microsoft edge".
+[INFO ] 2023-12-20 14:35:13.213 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[INFO ] 2023-12-20 14:35:16.615 [main] ReportManager - Successfully Opened: "windows | Microsoft edge".
+[INFO ] 2023-12-20 14:35:16.714 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '3 out of 7' test cases in the current suite                                        
+                                Test Method: 'pomDesignPatternTests.Tests._03verifyPackageTypeAndPriceForKuwait'                                
+                                  Test Description: 'Verify Subscription Packagess Type And Price For Kuwait '                                  
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-20 14:35:16.715 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/testData.json"".
+[INFO ] 2023-12-20 14:35:16.716 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/testData.json"".
+[INFO ] 2023-12-20 14:35:16.740 [main] ReportManager - Target URL: "https://subscribe.stctv.com/sa-en"
+[INFO ] 2023-12-20 14:35:17.660 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2023-12-20 14:35:23.046 [main] ReportManager - Navigate to url "https://subscribe.stctv.com/sa-en".
+[INFO ] 2023-12-20 14:35:23.235 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-12-20 14:35:23.304 [main] ReportManager - Click "sa KSA".
+[INFO ] 2023-12-20 14:35:24.098 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-12-20 14:35:24.269 [main] ReportManager - Click "kw Kuwait".
+[INFO ] 2023-12-20 14:35:28.152 [main] ReportManager - Get text "LITE" from "By.id: name-lite".
+[INFO ] 2023-12-20 14:35:28.152 [main] ReportManager - Expected "LITE", and actual "LITE"
+[INFO ] 2023-12-20 14:35:28.735 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'LITE' for the 'text' attribute, element locator 'By.id: name-lite'" and Actual "LITE". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-12-20 14:35:28.772 [main] ReportManager - Successfully created attachment 'Screenshot - 1703075728601__03verifyPackageTypeAndPriceForKuwait_ValidateElementAttribute_passed'
+[INFO ] 2023-12-20 14:35:28.932 [main] ReportManager - Get text "1.2" from "By.xpath: //*[@id='currency-lite']//b".
+[INFO ] 2023-12-20 14:35:28.932 [main] ReportManager - Expected "1.2", and actual "1.2"
+[INFO ] 2023-12-20 14:35:29.402 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be '1.2' for the 'text' attribute, element locator 'By.xpath: //*[@id='currency-lite']//b'" and Actual "1.2". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-12-20 14:35:29.405 [main] ReportManager - Successfully created attachment 'Screenshot - 1703075729299__03verifyPackageTypeAndPriceForKuwait_ValidateElementAttribute_passed'
+[INFO ] 2023-12-20 14:35:29.456 [main] ReportManager - Get text "KWD/month" from "By.xpath: //*[@id='currency-lite']//i".
+[INFO ] 2023-12-20 14:35:29.456 [main] ReportManager - Expected "KWD", and actual "KWD/month"
+[INFO ] 2023-12-20 14:35:29.890 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'KWD' for the 'text' attribute, element locator 'By.xpath: //*[@id='currency-lite']//i'" and Actual "KWD/month". Comparison Type "CONTAINS". Validation Type "POSITIVE".
+[INFO ] 2023-12-20 14:35:29.906 [main] ReportManager - Successfully created attachment 'Screenshot - 1703075729791__03verifyPackageTypeAndPriceForKuwait_ValidateElementAttribute_passed'
+[INFO ] 2023-12-20 14:35:29.959 [main] ReportManager - Get text "CLASSIC" from "By.id: name-classic".
+[INFO ] 2023-12-20 14:35:29.959 [main] ReportManager - Expected "CLASSIC", and actual "CLASSIC"
+[INFO ] 2023-12-20 14:35:30.387 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'CLASSIC' for the 'text' attribute, element locator 'By.id: name-classic'" and Actual "CLASSIC". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-12-20 14:35:30.393 [main] ReportManager - Successfully created attachment 'Screenshot - 1703075730259__03verifyPackageTypeAndPriceForKuwait_ValidateElementAttribute_passed'
+[INFO ] 2023-12-20 14:35:30.448 [main] ReportManager - Get text "2.5" from "By.xpath: //*[@id='currency-classic']//b".
+[INFO ] 2023-12-20 14:35:30.448 [main] ReportManager - Expected "2.5", and actual "2.5"
+[INFO ] 2023-12-20 14:35:30.849 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be '2.5' for the 'text' attribute, element locator 'By.xpath: //*[@id='currency-classic']//b'" and Actual "2.5". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-12-20 14:35:30.853 [main] ReportManager - Successfully created attachment 'Screenshot - 1703075730742__03verifyPackageTypeAndPriceForKuwait_ValidateElementAttribute_passed'
+[INFO ] 2023-12-20 14:35:30.904 [main] ReportManager - Get text "KWD/month" from "By.xpath: //*[@id='currency-classic']//i".
+[INFO ] 2023-12-20 14:35:30.905 [main] ReportManager - Expected "KWD", and actual "KWD/month"
+[INFO ] 2023-12-20 14:35:31.316 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'KWD' for the 'text' attribute, element locator 'By.xpath: //*[@id='currency-classic']//i'" and Actual "KWD/month". Comparison Type "CONTAINS". Validation Type "POSITIVE".
+[INFO ] 2023-12-20 14:35:31.319 [main] ReportManager - Successfully created attachment 'Screenshot - 1703075731212__03verifyPackageTypeAndPriceForKuwait_ValidateElementAttribute_passed'
+[INFO ] 2023-12-20 14:35:31.388 [main] ReportManager - Get text "PREMIUM" from "By.id: name-premium".
+[INFO ] 2023-12-20 14:35:31.389 [main] ReportManager - Expected "PREMIUM", and actual "PREMIUM"
+[INFO ] 2023-12-20 14:35:31.864 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'PREMIUM' for the 'text' attribute, element locator 'By.id: name-premium'" and Actual "PREMIUM". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-12-20 14:35:31.867 [main] ReportManager - Successfully created attachment 'Screenshot - 1703075731738__03verifyPackageTypeAndPriceForKuwait_ValidateElementAttribute_passed'
+[INFO ] 2023-12-20 14:35:31.922 [main] ReportManager - Get text "4.8" from "By.xpath: //*[@id='currency-premium']//b".
+[INFO ] 2023-12-20 14:35:31.922 [main] ReportManager - Expected "4.8", and actual "4.8"
+[INFO ] 2023-12-20 14:35:32.283 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be '4.8' for the 'text' attribute, element locator 'By.xpath: //*[@id='currency-premium']//b'" and Actual "4.8". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-12-20 14:35:32.293 [main] ReportManager - Successfully created attachment 'Screenshot - 1703075732188__03verifyPackageTypeAndPriceForKuwait_ValidateElementAttribute_passed'
+[INFO ] 2023-12-20 14:35:32.345 [main] ReportManager - Get text "KWD/month" from "By.xpath: //*[@id='currency-premium']//i".
+[INFO ] 2023-12-20 14:35:32.345 [main] ReportManager - Expected "KWD", and actual "KWD/month"
+[INFO ] 2023-12-20 14:35:32.716 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'KWD' for the 'text' attribute, element locator 'By.xpath: //*[@id='currency-premium']//i'" and Actual "KWD/month". Comparison Type "CONTAINS". Validation Type "POSITIVE".
+[INFO ] 2023-12-20 14:35:32.724 [main] ReportManager - Successfully created attachment 'Screenshot - 1703075732622__03verifyPackageTypeAndPriceForKuwait_ValidateElementAttribute_passed'
+[INFO ] 2023-12-20 14:35:32.726 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: BeforeMethod'
+[INFO ] 2023-12-20 14:35:32.727 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: _03verifyPackageTypeAndPriceForKuwait'
+[INFO ] 2023-12-20 14:35:32.727 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                     Finished Execution of Test Method: 'pomDesignPatternTests.Tests._03verifyPackageTypeAndPriceForKuwait'                     
+                                  Test Description: 'Verify Subscription Packagess Type And Price For Kuwait '                                  
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-20 14:35:32.730 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of after method configuration method                                             
+                                                    'pomDesignPatternTests.Tests.afterMethod'                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-20 14:35:33.807 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2023-12-20 14:35:33.812 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: afterMethod'
+[INFO ] 2023-12-20 14:35:33.815 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                            Starting execution of before method configuration method                                            
+                                                   'pomDesignPatternTests.Tests.BeforeMethod'                                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-20 14:35:33.821 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2023-12-20 14:35:33.826 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: MicrosoftEdge, ms:edgeOptions: {args: [--start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: D:\ShaftHQ\AssessmentTask\t..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2023-12-20 14:35:33.827 [main] ReportManager - Attempting to run locally on: "windows | Microsoft edge".
+[INFO ] 2023-12-20 14:35:33.827 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[INFO ] 2023-12-20 14:35:41.872 [main] ReportManager - Successfully Opened: "windows | Microsoft edge".
+[INFO ] 2023-12-20 14:35:41.880 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '4 out of 7' test cases in the current suite                                        
+                                Test Method: 'pomDesignPatternTests.Tests._04verifyInvalidWrongEmailErrorMessage'                                
+                                    Test Description: 'negative Scenario : Logging With Invalid Email Format'                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-20 14:35:41.882 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/testData.json"".
+[INFO ] 2023-12-20 14:35:41.883 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/testData.json"".
+[INFO ] 2023-12-20 14:35:41.903 [main] ReportManager - Target URL: "https://subscribe.stctv.com/en/user-status/"
+[INFO ] 2023-12-20 14:35:42.307 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2023-12-20 14:35:50.542 [main] ReportManager - Navigate to url "https://subscribe.stctv.com/en/user-status/".
+[INFO ] 2023-12-20 14:35:51.332 [main] ReportManager - text cleared Using Native Clear
+[INFO ] 2023-12-20 14:35:51.784 [main] ReportManager - Type "invalid" into "By.name: username".
+[INFO ] 2023-12-20 14:35:51.884 [main] ReportManager - Get text "Please enter a correct email address format" from "By.xpath: //span[@class='error-msg']".
+[INFO ] 2023-12-20 14:35:51.884 [main] ReportManager - Expected "Please enter a correct email address format", and actual "Please enter a correct email address format"
+[INFO ] 2023-12-20 14:35:54.080 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'Please enter a correct email address format' for the 'text' attribute, element locator 'By.xpath: //span[@class='error-msg']'" and Actual "Please enter a correct email address format". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-12-20 14:35:54.185 [main] ReportManager - Successfully created attachment 'Screenshot - 1703075753960__04verifyInvalidWrongEmailErrorMessage_ValidateElementAttribute_passed'
+[INFO ] 2023-12-20 14:35:54.193 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: BeforeMethod'
+[INFO ] 2023-12-20 14:35:54.195 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: _04verifyInvalidWrongEmailErrorMessage'
+[INFO ] 2023-12-20 14:35:54.195 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                     Finished Execution of Test Method: 'pomDesignPatternTests.Tests._04verifyInvalidWrongEmailErrorMessage'                     
+                                    Test Description: 'negative Scenario : Logging With Invalid Email Format'                                    
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-20 14:35:54.197 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of after method configuration method                                             
+                                                    'pomDesignPatternTests.Tests.afterMethod'                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-20 14:35:57.298 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2023-12-20 14:35:57.300 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: afterMethod'
+[INFO ] 2023-12-20 14:35:57.301 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                            Starting execution of before method configuration method                                            
+                                                   'pomDesignPatternTests.Tests.BeforeMethod'                                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-20 14:35:57.303 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2023-12-20 14:35:57.305 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: MicrosoftEdge, ms:edgeOptions: {args: [--start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: D:\ShaftHQ\AssessmentTask\t..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2023-12-20 14:35:57.305 [main] ReportManager - Attempting to run locally on: "windows | Microsoft edge".
+[INFO ] 2023-12-20 14:35:57.305 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[INFO ] 2023-12-20 14:36:01.213 [main] ReportManager - Successfully Opened: "windows | Microsoft edge".
+[INFO ] 2023-12-20 14:36:01.319 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '5 out of 7' test cases in the current suite                                        
+                                    Test Method: 'pomDesignPatternTests.Tests._05verifyLoginIdNotExistError'                                    
+                                    Test Description: 'negative Scenario : Logging With Non Registered Email'                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-20 14:36:01.320 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/testData.json"".
+[INFO ] 2023-12-20 14:36:01.320 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/testData.json"".
+[INFO ] 2023-12-20 14:36:01.340 [main] ReportManager - Target URL: "https://subscribe.stctv.com/en/user-status/"
+[INFO ] 2023-12-20 14:36:01.367 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2023-12-20 14:36:05.496 [main] ReportManager - Navigate to url "https://subscribe.stctv.com/en/user-status/".
+[INFO ] 2023-12-20 14:36:05.617 [main] ReportManager - text cleared Using Native Clear
+[INFO ] 2023-12-20 14:36:05.763 [main] ReportManager - Type "email@email2.com" into "By.name: username".
+[INFO ] 2023-12-20 14:36:06.585 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-12-20 14:36:06.657 [main] ReportManager - Click "Next".
+[INFO ] 2023-12-20 14:36:07.081 [main] ReportManager - Get text "Login ID does not exist. Please enter a valid Email Address or enter your mobile number starting with country code without 00 (e.g: 966XXXXXXX, 965XXXXXXXXX, 973XXXXXXXXX).
+
+Note: If you are STC Home customer, please login with your landline number starting with region code without 0 (e.g: 11444XXXX)" from "By.xpath: //span[@class='error-msg-top']".
+[INFO ] 2023-12-20 14:36:07.081 [main] ReportManager - Expected "Login ID does not exist.", and actual "Login ID does not exist. Please enter a valid Email Address or enter your mobile number starting with country code without 00 (e.g: 966XXXXXXX, 965XXXXXXXXX, 973XXXXXXXXX).
+
+Note: If you are STC Home customer, please login with your landline number starting with region code without 0 (e.g: 11444XXXX)"
+[INFO ] 2023-12-20 14:36:07.498 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'Login ID does not exist.' for the 'text' attribute, element locator 'By.xpath: //span[@class='error-msg-top']'" and Actual "Login ID does not exist. Please enter a valid Email Address or enter your mobile number starting with country code without 00 (e.g: 966XXXXXXX, 965XXXXXXXXX, 973XXXXXXXXX).
+
+Note: If you are STC Home customer, please login with your landline number starting with region code without 0 (e.g: 11444XXXX)". Comparison Type "CONTAINS". Validation Type "POSITIVE".
+[INFO ] 2023-12-20 14:36:07.502 [main] ReportManager - Successfully created attachment 'Screenshot - 1703075767373__05verifyLoginIdNotExistError_ValidateElementAttribute_passed'
+[INFO ] 2023-12-20 14:36:07.505 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: BeforeMethod'
+[INFO ] 2023-12-20 14:36:07.507 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: _05verifyLoginIdNotExistError'
+[INFO ] 2023-12-20 14:36:07.507 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                         Finished Execution of Test Method: 'pomDesignPatternTests.Tests._05verifyLoginIdNotExistError'                         
+                                    Test Description: 'negative Scenario : Logging With Non Registered Email'                                    
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-20 14:36:07.510 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of after method configuration method                                             
+                                                    'pomDesignPatternTests.Tests.afterMethod'                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-20 14:36:08.807 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2023-12-20 14:36:08.813 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: afterMethod'
+[INFO ] 2023-12-20 14:36:08.814 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                            Starting execution of before method configuration method                                            
+                                                   'pomDesignPatternTests.Tests.BeforeMethod'                                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-20 14:36:08.817 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2023-12-20 14:36:08.819 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: MicrosoftEdge, ms:edgeOptions: {args: [--start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: D:\ShaftHQ\AssessmentTask\t..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2023-12-20 14:36:08.819 [main] ReportManager - Attempting to run locally on: "windows | Microsoft edge".
+[INFO ] 2023-12-20 14:36:08.819 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[INFO ] 2023-12-20 14:36:11.891 [main] ReportManager - Successfully Opened: "windows | Microsoft edge".
+[INFO ] 2023-12-20 14:36:11.902 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '6 out of 7' test cases in the current suite                                        
+                                     Test Method: 'pomDesignPatternTests.Tests._06verifyLoginWithValidEmail'                                     
+                                      Test Description: 'positive Scenario : Logging With Registered Email'                                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-20 14:36:11.904 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/testData.json"".
+[INFO ] 2023-12-20 14:36:11.905 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/testData.json"".
+[INFO ] 2023-12-20 14:36:11.932 [main] ReportManager - Target URL: "https://subscribe.stctv.com/en/user-status/"
+[INFO ] 2023-12-20 14:36:12.757 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2023-12-20 14:36:16.963 [main] ReportManager - Navigate to url "https://subscribe.stctv.com/en/user-status/".
+[INFO ] 2023-12-20 14:36:17.139 [main] ReportManager - text cleared Using Native Clear
+[INFO ] 2023-12-20 14:36:17.558 [main] ReportManager - Type "email@email.com" into "By.name: username".
+[INFO ] 2023-12-20 14:36:17.777 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-12-20 14:36:17.847 [main] ReportManager - Click "Next".
+[INFO ] 2023-12-20 14:36:18.570 [main] ReportManager - Get text "Please enter the sign-in code we have sent you on this mobile number.966XXXXX8777" from "By.xpath: //div[@class='sign-in-DescMain']".
+[INFO ] 2023-12-20 14:36:18.570 [main] ReportManager - Expected "Please enter the sign-in code", and actual "Please enter the sign-in code we have sent you on this mobile number.966XXXXX8777"
+[INFO ] 2023-12-20 14:36:19.021 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'Please enter the sign-in code' for the 'text' attribute, element locator 'By.xpath: //div[@class='sign-in-DescMain']'" and Actual "Please enter the sign-in code we have sent you on this mobile number.966XXXXX8777". Comparison Type "CONTAINS". Validation Type "POSITIVE".
+[INFO ] 2023-12-20 14:36:19.024 [main] ReportManager - Successfully created attachment 'Screenshot - 1703075778918__06verifyLoginWithValidEmail_ValidateElementAttribute_passed'
+[INFO ] 2023-12-20 14:36:19.454 [main] ReportManager - Assertion "ValidateElementExists" PASSED. Expected "Element Should Exist, locator 'By.xpath: //div[@class='otp-div']'" and Actual "Element Exists". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-12-20 14:36:19.458 [main] ReportManager - Successfully created attachment 'Screenshot - 1703075779373__06verifyLoginWithValidEmail_ValidateElementExists_passed'
+[INFO ] 2023-12-20 14:36:19.460 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: BeforeMethod'
+[INFO ] 2023-12-20 14:36:19.462 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: _06verifyLoginWithValidEmail'
+[INFO ] 2023-12-20 14:36:19.462 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                          Finished Execution of Test Method: 'pomDesignPatternTests.Tests._06verifyLoginWithValidEmail'                          
+                                      Test Description: 'positive Scenario : Logging With Registered Email'                                      
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-20 14:36:19.465 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of after method configuration method                                             
+                                                    'pomDesignPatternTests.Tests.afterMethod'                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-20 14:36:20.305 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2023-12-20 14:36:20.308 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: afterMethod'
+[INFO ] 2023-12-20 14:36:20.309 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                            Starting execution of before method configuration method                                            
+                                                   'pomDesignPatternTests.Tests.BeforeMethod'                                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-20 14:36:20.312 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2023-12-20 14:36:20.313 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: MicrosoftEdge, ms:edgeOptions: {args: [--start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: D:\ShaftHQ\AssessmentTask\t..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2023-12-20 14:36:20.314 [main] ReportManager - Attempting to run locally on: "windows | Microsoft edge".
+[INFO ] 2023-12-20 14:36:20.314 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[INFO ] 2023-12-20 14:36:25.990 [main] ReportManager - Successfully Opened: "windows | Microsoft edge".
+[INFO ] 2023-12-20 14:36:25.997 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '7 out of 7' test cases in the current suite                                        
+                                Test Method: 'pomDesignPatternTests.Tests._07verifyRedeemingWithWrongVoucherCode'                                
+                                      Test Description: 'Negative Scnario : Entering Invalid Voucher Code '                                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-20 14:36:25.998 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/testData.json"".
+[INFO ] 2023-12-20 14:36:25.999 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/testData.json"".
+[INFO ] 2023-12-20 14:36:26.018 [main] ReportManager - Target URL: "https://subscribe.stctv.com/en/redeem"
+[INFO ] 2023-12-20 14:36:26.135 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2023-12-20 14:36:30.080 [main] ReportManager - Navigate to url "https://subscribe.stctv.com/en/redeem".
+[INFO ] 2023-12-20 14:36:30.205 [main] ReportManager - text cleared Using Native Clear
+[INFO ] 2023-12-20 14:36:30.275 [main] ReportManager - Type "122023" into "Placeholder".
+[INFO ] 2023-12-20 14:36:30.465 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-12-20 14:36:30.521 [main] ReportManager - Click "Redeem".
+[INFO ] 2023-12-20 14:36:30.804 [main] ReportManager - Get text "Invalid voucher or promo code" from "By.xpath: //div[@class='error-msg']".
+[INFO ] 2023-12-20 14:36:30.805 [main] ReportManager - Expected "Invalid voucher or promo code", and actual "Invalid voucher or promo code"
+[INFO ] 2023-12-20 14:36:31.786 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'Invalid voucher or promo code' for the 'text' attribute, element locator 'By.xpath: //div[@class='error-msg']'" and Actual "Invalid voucher or promo code". Comparison Type "CONTAINS". Validation Type "POSITIVE".
+[INFO ] 2023-12-20 14:36:31.798 [main] ReportManager - Successfully created attachment 'Screenshot - 1703075791609__07verifyRedeemingWithWrongVoucherCode_ValidateElementAttribute_passed'
+[INFO ] 2023-12-20 14:36:31.800 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: BeforeMethod'
+[INFO ] 2023-12-20 14:36:31.897 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: _07verifyRedeemingWithWrongVoucherCode'
+[INFO ] 2023-12-20 14:36:31.898 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                     Finished Execution of Test Method: 'pomDesignPatternTests.Tests._07verifyRedeemingWithWrongVoucherCode'                     
+                                      Test Description: 'Negative Scnario : Entering Invalid Voucher Code '                                      
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-20 14:36:31.903 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of after method configuration method                                             
+                                                    'pomDesignPatternTests.Tests.afterMethod'                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-20 14:36:35.894 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2023-12-20 14:36:35.897 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: afterMethod'
+[INFO ] 2023-12-20 14:36:35.898 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine teardown configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTeardown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-20 14:36:35.899 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'
+[INFO ] 2023-12-20 14:36:35.899 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/logs/log4j.log"".
+[INFO ] 2023-12-20 14:36:35.899 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "target/logs/log4j.log"".

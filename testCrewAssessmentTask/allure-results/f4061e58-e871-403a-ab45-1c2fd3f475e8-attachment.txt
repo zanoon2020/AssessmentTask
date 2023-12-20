@@ -1,0 +1,61 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 7' test cases in the current suite                                        
+                             Test Method: 'pomDesignPatternTests.Tests._01verifyPackageTypeAndPriceForSaudiaArabia'                             
+                               Test Description: 'Verify Subscription Packages's Type And Price For Saudi Arabia '                               
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/testData.json"". @20-12-2023 14:34:16.0922 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/testData.json"". @20-12-2023 14:34:16.0923 PM
+[ReportManager] Target URL: "https://subscribe.stctv.com/sa-en" @20-12-2023 14:34:19.0000 PM
+[ReportManager] Initial URL: "about:blank" @20-12-2023 14:34:19.0103 PM
+[ReportManager] Navigate to url "https://subscribe.stctv.com/sa-en". @20-12-2023 14:34:26.0203 PM
+[ReportManager] Assertion "ValidateElementExists" PASSED. Expected "Element Should Exist, locator 'By.xpath: //div[@id='country']//img[@alt='sa']'" and Actual "Element Exists". Comparison Type "EQUALS". Validation Type "POSITIVE". @20-12-2023 14:34:29.0434 PM
+[ReportManager] Assertion Passed: The Element located by "By.xpath: //div[@id='country']//img[@alt='sa']" exists. @20-12-2023 14:34:29.0436 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1703075667661__01verifyPackageTypeAndPriceForSaudiaArabia_ValidateElementExists_passed' @20-12-2023 14:34:29.0484 PM
+[ReportManager] Get text "LITE" from "By.id: name-lite". @20-12-2023 14:34:30.0121 PM
+[ReportManager] Expected "LITE", and actual "LITE" @20-12-2023 14:34:30.0122 PM
+[ReportManager] Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'LITE' for the 'text' attribute, element locator 'By.id: name-lite'" and Actual "LITE". Comparison Type "EQUALS". Validation Type "POSITIVE". @20-12-2023 14:34:31.0200 PM
+[ReportManager] Assertion Passed: The Element located by "By.id: name-lite" text is equal to "LITE". @20-12-2023 14:34:31.0200 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1703075670636__01verifyPackageTypeAndPriceForSaudiaArabia_ValidateElementAttribute_passed' @20-12-2023 14:34:31.0246 PM
+[ReportManager] Get text "15" from "By.xpath: //*[@id='currency-lite']//b". @20-12-2023 14:34:31.0317 PM
+[ReportManager] Expected "15", and actual "15" @20-12-2023 14:34:31.0317 PM
+[ReportManager] Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be '15' for the 'text' attribute, element locator 'By.xpath: //*[@id='currency-lite']//b'" and Actual "15". Comparison Type "EQUALS". Validation Type "POSITIVE". @20-12-2023 14:34:32.0136 PM
+[ReportManager] Assertion Passed: The Element located by "By.xpath: //*[@id='currency-lite']//b" text is equal to "15". @20-12-2023 14:34:32.0137 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1703075671889__01verifyPackageTypeAndPriceForSaudiaArabia_ValidateElementAttribute_passed' @20-12-2023 14:34:32.0143 PM
+[ReportManager] Get text "SAR/month" from "By.xpath: //*[@id='currency-lite']//i". @20-12-2023 14:34:32.0226 PM
+[ReportManager] Expected "SAR", and actual "SAR/month" @20-12-2023 14:34:32.0227 PM
+[ReportManager] Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'SAR' for the 'text' attribute, element locator 'By.xpath: //*[@id='currency-lite']//i'" and Actual "SAR/month". Comparison Type "CONTAINS". Validation Type "POSITIVE". @20-12-2023 14:34:32.0770 PM
+[ReportManager] Assertion Passed: The Element located by "By.xpath: //*[@id='currency-lite']//i" text contains "SAR". @20-12-2023 14:34:32.0771 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1703075672633__01verifyPackageTypeAndPriceForSaudiaArabia_ValidateElementAttribute_passed' @20-12-2023 14:34:32.0775 PM
+[ReportManager] Get text "CLASSIC" from "By.id: name-classic". @20-12-2023 14:34:32.0837 PM
+[ReportManager] Expected "CLASSIC", and actual "CLASSIC" @20-12-2023 14:34:32.0838 PM
+[ReportManager] Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'CLASSIC' for the 'text' attribute, element locator 'By.id: name-classic'" and Actual "CLASSIC". Comparison Type "EQUALS". Validation Type "POSITIVE". @20-12-2023 14:34:33.0285 PM
+[ReportManager] Assertion Passed: The Element located by "By.id: name-classic" text is equal to "CLASSIC". @20-12-2023 14:34:33.0285 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1703075673163__01verifyPackageTypeAndPriceForSaudiaArabia_ValidateElementAttribute_passed' @20-12-2023 14:34:33.0288 PM
+[ReportManager] Get text "25" from "By.xpath: //*[@id='currency-classic']//b". @20-12-2023 14:34:33.0353 PM
+[ReportManager] Expected "25", and actual "25" @20-12-2023 14:34:33.0354 PM
+[ReportManager] Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be '25' for the 'text' attribute, element locator 'By.xpath: //*[@id='currency-classic']//b'" and Actual "25". Comparison Type "EQUALS". Validation Type "POSITIVE". @20-12-2023 14:34:33.0820 PM
+[ReportManager] Assertion Passed: The Element located by "By.xpath: //*[@id='currency-classic']//b" text is equal to "25". @20-12-2023 14:34:33.0820 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1703075673694__01verifyPackageTypeAndPriceForSaudiaArabia_ValidateElementAttribute_passed' @20-12-2023 14:34:33.0824 PM
+[ReportManager] Get text "SAR/month" from "By.xpath: //*[@id='currency-classic']//i". @20-12-2023 14:34:33.0899 PM
+[ReportManager] Expected "SAR", and actual "SAR/month" @20-12-2023 14:34:33.0900 PM
+[ReportManager] Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'SAR' for the 'text' attribute, element locator 'By.xpath: //*[@id='currency-classic']//i'" and Actual "SAR/month". Comparison Type "CONTAINS". Validation Type "POSITIVE". @20-12-2023 14:34:34.0424 PM
+[ReportManager] Assertion Passed: The Element located by "By.xpath: //*[@id='currency-classic']//i" text contains "SAR". @20-12-2023 14:34:34.0425 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1703075674317__01verifyPackageTypeAndPriceForSaudiaArabia_ValidateElementAttribute_passed' @20-12-2023 14:34:34.0428 PM
+[ReportManager] Get text "PREMIUM" from "By.id: name-premium". @20-12-2023 14:34:34.0490 PM
+[ReportManager] Expected "PREMIUM", and actual "PREMIUM" @20-12-2023 14:34:34.0490 PM
+[ReportManager] Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'PREMIUM' for the 'text' attribute, element locator 'By.id: name-premium'" and Actual "PREMIUM". Comparison Type "EQUALS". Validation Type "POSITIVE". @20-12-2023 14:34:34.0992 PM
+[ReportManager] Assertion Passed: The Element located by "By.id: name-premium" text is equal to "PREMIUM". @20-12-2023 14:34:34.0993 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1703075674830__01verifyPackageTypeAndPriceForSaudiaArabia_ValidateElementAttribute_passed' @20-12-2023 14:34:34.0996 PM
+[ReportManager] Get text "60" from "By.xpath: //*[@id='currency-premium']//b". @20-12-2023 14:34:35.0048 PM
+[ReportManager] Expected "60", and actual "60" @20-12-2023 14:34:35.0048 PM
+[ReportManager] Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be '60' for the 'text' attribute, element locator 'By.xpath: //*[@id='currency-premium']//b'" and Actual "60". Comparison Type "EQUALS". Validation Type "POSITIVE". @20-12-2023 14:34:35.0505 PM
+[ReportManager] Assertion Passed: The Element located by "By.xpath: //*[@id='currency-premium']//b" text is equal to "60". @20-12-2023 14:34:35.0506 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1703075675375__01verifyPackageTypeAndPriceForSaudiaArabia_ValidateElementAttribute_passed' @20-12-2023 14:34:35.0510 PM
+[ReportManager] Get text "SAR/month" from "By.xpath: //*[@id='currency-premium']//i". @20-12-2023 14:34:35.0592 PM
+[ReportManager] Expected "SAR", and actual "SAR/month" @20-12-2023 14:34:35.0593 PM
+[ReportManager] Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'SAR' for the 'text' attribute, element locator 'By.xpath: //*[@id='currency-premium']//i'" and Actual "SAR/month". Comparison Type "CONTAINS". Validation Type "POSITIVE". @20-12-2023 14:34:36.0059 PM
+[ReportManager] Assertion Passed: The Element located by "By.xpath: //*[@id='currency-premium']//i" text contains "SAR". @20-12-2023 14:34:36.0060 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1703075675936__01verifyPackageTypeAndPriceForSaudiaArabia_ValidateElementAttribute_passed' @20-12-2023 14:34:36.0062 PM
+[ReportManager] Successfully created attachment 'SHAFT Engine Logs - Current Method log: BeforeMethod' @20-12-2023 14:34:36.0068 PM

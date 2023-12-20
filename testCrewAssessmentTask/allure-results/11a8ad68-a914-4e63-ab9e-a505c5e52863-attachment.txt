@@ -1,0 +1,62 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '3 out of 7' test cases in the current suite                                        
+                                Test Method: 'pomDesignPatternTests.Tests._03verifyPackageTypeAndPriceForKuwait'                                
+                                  Test Description: 'Verify Subscription Packagess Type And Price For Kuwait '                                  
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/testData.json"". @20-12-2023 14:35:16.0715 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/testData.json"". @20-12-2023 14:35:16.0716 PM
+[ReportManager] Target URL: "https://subscribe.stctv.com/sa-en" @20-12-2023 14:35:16.0740 PM
+[ReportManager] Initial URL: "about:blank" @20-12-2023 14:35:17.0659 PM
+[ReportManager] Navigate to url "https://subscribe.stctv.com/sa-en". @20-12-2023 14:35:23.0046 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-12-2023 14:35:23.0235 PM
+[ReportManager] Click "sa KSA". @20-12-2023 14:35:23.0304 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-12-2023 14:35:24.0098 PM
+[ReportManager] Click "kw Kuwait". @20-12-2023 14:35:24.0269 PM
+[ReportManager] Get text "LITE" from "By.id: name-lite". @20-12-2023 14:35:28.0152 PM
+[ReportManager] Expected "LITE", and actual "LITE" @20-12-2023 14:35:28.0152 PM
+[ReportManager] Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'LITE' for the 'text' attribute, element locator 'By.id: name-lite'" and Actual "LITE". Comparison Type "EQUALS". Validation Type "POSITIVE". @20-12-2023 14:35:28.0735 PM
+[ReportManager] Assertion Passed: The Element located by "By.id: name-lite" text is equal to "LITE". @20-12-2023 14:35:28.0735 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1703075728601__03verifyPackageTypeAndPriceForKuwait_ValidateElementAttribute_passed' @20-12-2023 14:35:28.0771 PM
+[ReportManager] Get text "1.2" from "By.xpath: //*[@id='currency-lite']//b". @20-12-2023 14:35:28.0932 PM
+[ReportManager] Expected "1.2", and actual "1.2" @20-12-2023 14:35:28.0932 PM
+[ReportManager] Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be '1.2' for the 'text' attribute, element locator 'By.xpath: //*[@id='currency-lite']//b'" and Actual "1.2". Comparison Type "EQUALS". Validation Type "POSITIVE". @20-12-2023 14:35:29.0402 PM
+[ReportManager] Assertion Passed: The Element located by "By.xpath: //*[@id='currency-lite']//b" text is equal to "1.2". @20-12-2023 14:35:29.0402 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1703075729299__03verifyPackageTypeAndPriceForKuwait_ValidateElementAttribute_passed' @20-12-2023 14:35:29.0405 PM
+[ReportManager] Get text "KWD/month" from "By.xpath: //*[@id='currency-lite']//i". @20-12-2023 14:35:29.0456 PM
+[ReportManager] Expected "KWD", and actual "KWD/month" @20-12-2023 14:35:29.0456 PM
+[ReportManager] Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'KWD' for the 'text' attribute, element locator 'By.xpath: //*[@id='currency-lite']//i'" and Actual "KWD/month". Comparison Type "CONTAINS". Validation Type "POSITIVE". @20-12-2023 14:35:29.0890 PM
+[ReportManager] Assertion Passed: The Element located by "By.xpath: //*[@id='currency-lite']//i" text contains "KWD". @20-12-2023 14:35:29.0891 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1703075729791__03verifyPackageTypeAndPriceForKuwait_ValidateElementAttribute_passed' @20-12-2023 14:35:29.0906 PM
+[ReportManager] Get text "CLASSIC" from "By.id: name-classic". @20-12-2023 14:35:29.0959 PM
+[ReportManager] Expected "CLASSIC", and actual "CLASSIC" @20-12-2023 14:35:29.0959 PM
+[ReportManager] Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'CLASSIC' for the 'text' attribute, element locator 'By.id: name-classic'" and Actual "CLASSIC". Comparison Type "EQUALS". Validation Type "POSITIVE". @20-12-2023 14:35:30.0386 PM
+[ReportManager] Assertion Passed: The Element located by "By.id: name-classic" text is equal to "CLASSIC". @20-12-2023 14:35:30.0387 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1703075730259__03verifyPackageTypeAndPriceForKuwait_ValidateElementAttribute_passed' @20-12-2023 14:35:30.0393 PM
+[ReportManager] Get text "2.5" from "By.xpath: //*[@id='currency-classic']//b". @20-12-2023 14:35:30.0448 PM
+[ReportManager] Expected "2.5", and actual "2.5" @20-12-2023 14:35:30.0448 PM
+[ReportManager] Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be '2.5' for the 'text' attribute, element locator 'By.xpath: //*[@id='currency-classic']//b'" and Actual "2.5". Comparison Type "EQUALS". Validation Type "POSITIVE". @20-12-2023 14:35:30.0849 PM
+[ReportManager] Assertion Passed: The Element located by "By.xpath: //*[@id='currency-classic']//b" text is equal to "2.5". @20-12-2023 14:35:30.0849 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1703075730742__03verifyPackageTypeAndPriceForKuwait_ValidateElementAttribute_passed' @20-12-2023 14:35:30.0853 PM
+[ReportManager] Get text "KWD/month" from "By.xpath: //*[@id='currency-classic']//i". @20-12-2023 14:35:30.0904 PM
+[ReportManager] Expected "KWD", and actual "KWD/month" @20-12-2023 14:35:30.0905 PM
+[ReportManager] Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'KWD' for the 'text' attribute, element locator 'By.xpath: //*[@id='currency-classic']//i'" and Actual "KWD/month". Comparison Type "CONTAINS". Validation Type "POSITIVE". @20-12-2023 14:35:31.0316 PM
+[ReportManager] Assertion Passed: The Element located by "By.xpath: //*[@id='currency-classic']//i" text contains "KWD". @20-12-2023 14:35:31.0316 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1703075731212__03verifyPackageTypeAndPriceForKuwait_ValidateElementAttribute_passed' @20-12-2023 14:35:31.0319 PM
+[ReportManager] Get text "PREMIUM" from "By.id: name-premium". @20-12-2023 14:35:31.0388 PM
+[ReportManager] Expected "PREMIUM", and actual "PREMIUM" @20-12-2023 14:35:31.0389 PM
+[ReportManager] Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'PREMIUM' for the 'text' attribute, element locator 'By.id: name-premium'" and Actual "PREMIUM". Comparison Type "EQUALS". Validation Type "POSITIVE". @20-12-2023 14:35:31.0864 PM
+[ReportManager] Assertion Passed: The Element located by "By.id: name-premium" text is equal to "PREMIUM". @20-12-2023 14:35:31.0864 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1703075731738__03verifyPackageTypeAndPriceForKuwait_ValidateElementAttribute_passed' @20-12-2023 14:35:31.0867 PM
+[ReportManager] Get text "4.8" from "By.xpath: //*[@id='currency-premium']//b". @20-12-2023 14:35:31.0921 PM
+[ReportManager] Expected "4.8", and actual "4.8" @20-12-2023 14:35:31.0922 PM
+[ReportManager] Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be '4.8' for the 'text' attribute, element locator 'By.xpath: //*[@id='currency-premium']//b'" and Actual "4.8". Comparison Type "EQUALS". Validation Type "POSITIVE". @20-12-2023 14:35:32.0283 PM
+[ReportManager] Assertion Passed: The Element located by "By.xpath: //*[@id='currency-premium']//b" text is equal to "4.8". @20-12-2023 14:35:32.0283 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1703075732188__03verifyPackageTypeAndPriceForKuwait_ValidateElementAttribute_passed' @20-12-2023 14:35:32.0293 PM
+[ReportManager] Get text "KWD/month" from "By.xpath: //*[@id='currency-premium']//i". @20-12-2023 14:35:32.0345 PM
+[ReportManager] Expected "KWD", and actual "KWD/month" @20-12-2023 14:35:32.0345 PM
+[ReportManager] Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'KWD' for the 'text' attribute, element locator 'By.xpath: //*[@id='currency-premium']//i'" and Actual "KWD/month". Comparison Type "CONTAINS". Validation Type "POSITIVE". @20-12-2023 14:35:32.0716 PM
+[ReportManager] Assertion Passed: The Element located by "By.xpath: //*[@id='currency-premium']//i" text contains "KWD". @20-12-2023 14:35:32.0716 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1703075732622__03verifyPackageTypeAndPriceForKuwait_ValidateElementAttribute_passed' @20-12-2023 14:35:32.0724 PM
+[ReportManager] Successfully created attachment 'SHAFT Engine Logs - Current Method log: BeforeMethod' @20-12-2023 14:35:32.0726 PM

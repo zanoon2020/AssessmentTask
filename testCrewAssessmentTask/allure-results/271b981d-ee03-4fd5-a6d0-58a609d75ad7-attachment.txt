@@ -1,0 +1,20 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '4 out of 7' test cases in the current suite                                        
+                                Test Method: 'pomDesignPatternTests.Tests._04verifyInvalidWrongEmailErrorMessage'                                
+                                    Test Description: 'negative Scenario : Logging With Invalid Email Format'                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/testData.json"". @20-12-2023 14:35:41.0882 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/testData.json"". @20-12-2023 14:35:41.0883 PM
+[ReportManager] Target URL: "https://subscribe.stctv.com/en/user-status/" @20-12-2023 14:35:41.0903 PM
+[ReportManager] Initial URL: "about:blank" @20-12-2023 14:35:42.0307 PM
+[ReportManager] Navigate to url "https://subscribe.stctv.com/en/user-status/". @20-12-2023 14:35:50.0542 PM
+[ReportManager] text cleared Using Native Clear @20-12-2023 14:35:51.0332 PM
+[ReportManager] Type "invalid" into "By.name: username". @20-12-2023 14:35:51.0784 PM
+[ReportManager] Get text "Please enter a correct email address format" from "By.xpath: //span[@class='error-msg']". @20-12-2023 14:35:51.0883 PM
+[ReportManager] Expected "Please enter a correct email address format", and actual "Please enter a correct email address format" @20-12-2023 14:35:51.0884 PM
+[ReportManager] Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'Please enter a correct email address format' for the 'text' attribute, element locator 'By.xpath: //span[@class='error-msg']'" and Actual "Please enter a correct email address format". Comparison Type "EQUALS". Validation Type "POSITIVE". @20-12-2023 14:35:54.0080 PM
+[ReportManager] Assertion Passed: The Element located by "By.xpath: //span[@class='error-msg']" text is equal to "Please enter a correct email address format". @20-12-2023 14:35:54.0080 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1703075753960__04verifyInvalidWrongEmailErrorMessage_ValidateElementAttribute_passed' @20-12-2023 14:35:54.0185 PM
+[ReportManager] Successfully created attachment 'SHAFT Engine Logs - Current Method log: BeforeMethod' @20-12-2023 14:35:54.0193 PM
